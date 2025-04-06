@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/A New Start Fan Cover/+page.svelte";

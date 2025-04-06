@@ -20,12 +20,9 @@
     <div>
         <Header />
         <div class="projectsContainer mt-0 flex justify-around items-center flex-wrap pb-50 pl-32 pr-50 h-full">
-            <ProjectPreview projectThumbnail="thumb_oh_hi_meetups.jpg" projectTitle="Oh hi meetups"/>
-            <ProjectPreview projectThumbnail="thumb_a_new_start.jpg" projectTitle="A New Start Fan Cover"/>
-            <ProjectPreview projectThumbnail="moom_spin.gif" projectTitle="Filler Project"/>
-            <ProjectPreview projectThumbnail="moom_spin.gif" projectTitle="Filler Project"/>
-            <ProjectPreview projectThumbnail="moom_spin.gif" projectTitle="Filler Project"/>
-            <ProjectPreview projectThumbnail="moom_spin.gif" projectTitle="Filler Project"/>
+            <ProjectPreview projectThumbnail="thumb_oh_hi_meetups.jpg" projectTitle="Oh hi meetups" projectRoute="Oh hi meetups" />
+            <ProjectPreview projectThumbnail="thumb_project_mumei.webp" projectTitle="Project Mumei" projectRoute="Project Mumei" />
+            <ProjectPreview projectThumbnail="thumb_project_colon_d.webp" projectTitle="Project :D" projectRoute="Project Colon D"/>
         </div>
     </div>
 </div>

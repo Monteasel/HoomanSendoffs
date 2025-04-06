@@ -1,6 +1,6 @@
 <script>
     import {toggleProjectSidebar} from "$lib/projectSidebar.svelte";
-    let {projectThumbnail, projectTitle} = $props();
+    let {projectThumbnail, projectTitle, projectRoute} = $props();
 </script>
 
 <style>
@@ -12,7 +12,7 @@
     }
 </style>
 
-<a onclick={toggleProjectSidebar} href={`/${projectTitle}`} class="transition-all hover:scale-110 px-20">
+<a onclick={toggleProjectSidebar} href={`/${projectRoute}`} class="transition-all hover:scale-110 px-20">
     <div class="flex flex-col items-center justify-center">
         <img 
             class="rounded-xl w-60 h-60"

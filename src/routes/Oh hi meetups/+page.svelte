@@ -5,7 +5,7 @@
     import PlannedMeetups from "$lib/components/OhHiMeetups/PlannedMeetups.svelte";
 </script>
 
-<div class="min-h-screen w-auto">
+<div class="min-h-screen w-[85.5%] mr-[2%]">
     <Header/>
     <InfoAndFormsButtons/>
     <PlannedMeetups/>

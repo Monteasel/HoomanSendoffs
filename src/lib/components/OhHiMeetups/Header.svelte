@@ -1,38 +1,27 @@
 <style>
-    #header_container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: #31646e;
-        opacity: 0.95;
-        padding: 20px 50px 40px;
-        margin-bottom: 90px;
-    }
-
-    #header_title {
-        font-size:3rem;
-        text-align: center;
-        font-weight: bold;
-        font-family: "Helvetica";
-        color: #ad603d;
-        letter-spacing: 0.5px;
-    }
-
-    #header_subtitle {
-        text-align: center;
-        font-size: 2rem;
-        font-family: "Helvetica";
-        font-style: italic;
-        padding: 10px 0px 0px 0px;
-    }
+    .paper1 {
+    background-image: url("paper.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: 
+        brightness(0.5)
+        sepia(0.4)
+        hue-rotate(-12deg)
+        saturate(5);
+}
 </style>
 
-<header class="grow-1 rounded-xl" id="header_container">
-    <h1 id="header_title">
+<header class="paper1
+        flex flex-col justify-center items-center
+        text-center font-semibold font-[Helvetica] tracking-wide
+        ml-2 mr-0 mb-20 pt-4 px-10 pb-6
+        w-full md:mx-[15%]">
+    <p class="
+        text-md md:text-5xl" style="color: #ad603d;">
         Nanashi Mumei oh hi meetups
-    </h1>
-    <p id="header_subtitle">
+    </p>
+    <p class="pt-3
+        text-sm md:text-3xl italic">
         Oh hi's from around the world
     </p>
 </header>

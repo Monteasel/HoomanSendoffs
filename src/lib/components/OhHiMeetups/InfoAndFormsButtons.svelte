@@ -35,7 +35,7 @@
     }
 
     .paper1 {
-        border-image-source: url("paper.png");
+        border-image-source: url("paper.webp");
         background-size: cover;
         border-image-slice: 8 4 8 16 fill;
         border-image-width: 4px 4px 4px 20px;
@@ -49,7 +49,7 @@
     }
 
     .paper2 {
-        border-image-source: url("paper2.png");
+        border-image-source: url("paper2.webp");
         background-size: cover;
         border-image-slice: 30 4 20 4 fill;
         border-image-width: 30px 4px 20px 4px;

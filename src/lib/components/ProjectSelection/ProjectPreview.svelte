@@ -15,7 +15,9 @@
 <a onclick={toggleProjectSidebar} href={`/${projectRoute}`} class="transition-all hover:scale-110">
     <div class="flex flex-col items-center justify-center">
         <img 
-            class="rounded-xl w-60 h-60"
+            class="rounded-xl
+            w-30 h-30
+            md:w-60 md:h-60"
             src={projectThumbnail} alt="Project Thumbnail">
         <h3 class="projectTitle">
             {projectTitle}

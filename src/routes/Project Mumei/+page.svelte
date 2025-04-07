@@ -2,30 +2,24 @@
     import {Tweet} from "sveltekit-embed";
 </script>
 
-<style>
-    .thumb {
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, 0%);
-    }
-</style>
-
-<div class="min-h-screen w-full font-[Helvetica] md:text-2xl flex flex-col pt-[7%]" style="background-color: #674d46;">
-    <p class="text-center rounded-xl p-5 shadow-2xl" style="background-color: #e3dfcc;">
+<div class="min-h-screen w-full
+    font-[Helvetica] md:text-2xl text-center flex flex-col pt-[2%]" style="background-color: #674d46;">
+    <p class="rounded-xl p-5 mx-20 md:mx-5 shadow-2xl" style="background-color: #e3dfcc;">
         Some Hoomans are planning on covering 'mumei'.
         <br>
-        Go support them and join their <a href="https://discord.gg/bx4aRNV8mD" class="underline">Discord</a> if you're interested in participating!
+        Go support them and join their <a href="https://discord.gg/bx4aRNV8mD" class="underline italic">Discord</a> if you're interested in participating!
     </p>
-    <div class="flex justify-around items-center mt-[3%] mb-[5%]  px-20 gap-40">
-        <div class="">
+    <div class="flex flex-col justify-center items-center">
+        <div class="w-1/3 pr-10 px-3 md:px-20">
             <Tweet tweetLink="eln_ight/status/1905590069119123743" theme="dark"/>
         </div>
-        <a href="https://discord.gg/bx4aRNV8mD" target="_blank" class="hover:scale-110 w-[70%] thumb">
-            <img src="discord_logo.webp"
-                class="">
-        </a>
-
+        <div class="flex justify-center items-center">
+            <a href="https://discord.gg/bx4aRNV8mD" target="_blank" class="transition-all duration-100 hover:scale-110 w-[50%] ">
+                <img src="discord_logo.webp">
+            </a>
+        </div>
+        <p class="w-7/10 md:w-1/2 mt-10 mx-2 md:mx-32 mb-10 py-58 px-5 rounded-xl" style="border: 4px solid #e3dfcc;">
+            Watch their cover when it's finished!
+        </p>
     </div>
-    <img src="thumb_project_mumei.webp" alt="Project Mumei Thumbnail" class="thumb rounded-xl">
 </div>

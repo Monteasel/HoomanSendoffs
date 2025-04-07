@@ -1,7 +1,7 @@
 import { o as object_prototype, a as array_prototype, g as get_descriptor, b as get_prototype_of, i as is_array, s as safe_equals, e as equals, c as is_extensible, r as run_all, d as index_of, f as define_property, h as array_from } from "./equality.js";
 import { U as UNINITIALIZED, H as HYDRATION_ERROR, a as HYDRATION_START, b as HYDRATION_END, r as render, p as push$1, s as setContext, c as pop$1 } from "./index.js";
 import "clsx";
-const BROWSER = false;
+const DEV = false;
 let base = "";
 let assets = base;
 const app_dir = "_app";
@@ -1035,8 +1035,8 @@ function update_effect(effect2) {
     effect2.wv = write_version;
     var deps = effect2.deps;
     var dep;
-    if (BROWSER && tracing_mode_flag && (effect2.f & DIRTY) !== 0 && deps !== null) ;
-    if (BROWSER) ;
+    if (DEV && tracing_mode_flag && (effect2.f & DIRTY) !== 0 && deps !== null) ;
+    if (DEV) ;
   } catch (error) {
     handle_error(error, effect2, previous_effect, previous_component_context || effect2.ctx);
   } finally {
@@ -1650,7 +1650,7 @@ const options = {
   root,
   service_worker: false,
   templates: {
-    app: ({ head, body, assets: assets2, nonce, env }) => '<!doctype html>\n<html lang="en">\n	<head>\n		<style>\n			body {\n				background-image: url("pinboard.jpg");\n				/* background-color: #b69687; */\n				margin: 0;\n				min-height: 100vh;\n			}\n		</style>\n		<meta charset="utf-8" />\n		<link rel="icon" href="colonD.png" />\n		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap">\n		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat&display=swap">\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		<title>Mumei Farewell Project Collection</title>\n		' + head + '\n	</head>\n	<body data-sveltekit-preload-data="hover">\n		<div style="display: contents">' + body + "</div>\n	</body>\n</html>\n",
+    app: ({ head, body, assets: assets2, nonce, env }) => '<!doctype html>\n<html lang="en">\n	<head>\n		<style>\n			body {\n				background-image: url("pinboard.webp");\n				/* background-color: #b69687; */\n				margin: 0;\n				min-height: 100vh;\n			}\n		</style>\n		<meta charset="utf-8" />\n		<link rel="icon" href="colonD.png" />\n		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap">\n		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat&display=swap">\n		<link rel="preconnect" href="https://fonts.googleapis.com">\n		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n		<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		<title>Hooman Sendoff Projects</title>\n		' + head + '\n	</head>\n	<body data-sveltekit-preload-data="hover">\n		<div style="display: contents">' + body + "</div>\n	</body>\n</html>\n",
     error: ({ status, message }) => '<!doctype html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<title>' + message + `</title>
 
 		<style>
@@ -1722,7 +1722,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "1selvbo"
+  version_hash: "1qqu587"
 };
 async function get_hooks() {
   let handle;
@@ -1741,7 +1741,7 @@ async function get_hooks() {
   };
 }
 export {
-  BROWSER as B,
+  DEV as D,
   assets as a,
   base as b,
   app_dir as c,

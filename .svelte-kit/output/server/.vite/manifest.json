@@ -8,6 +8,10 @@
       "_internal.js"
     ]
   },
+  "_attributes.js": {
+    "file": "chunks/attributes.js",
+    "name": "attributes"
+  },
   "_equality.js": {
     "file": "chunks/equality.js",
     "name": "equality"
@@ -21,7 +25,10 @@
   },
   "_index.js": {
     "file": "chunks/index.js",
-    "name": "index"
+    "name": "index",
+    "imports": [
+      "_attributes.js"
+    ]
   },
   "_internal.js": {
     "file": "chunks/internal.js",
@@ -31,12 +38,27 @@
       "_index.js"
     ]
   },
+  "_tweet.js": {
+    "file": "chunks/tweet.js",
+    "name": "tweet",
+    "imports": [
+      "_attributes.js"
+    ],
+    "css": [
+      "_app/immutable/assets/tweet.nGyVx24O.css"
+    ]
+  },
+  "_tweet.nGyVx24O.css": {
+    "file": "_app/immutable/assets/tweet.nGyVx24O.css",
+    "src": "_tweet.nGyVx24O.css"
+  },
   "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte": {
     "file": "entries/fallbacks/error.svelte.js",
     "name": "entries/fallbacks/error.svelte",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
     "isEntry": true,
     "imports": [
+      "_attributes.js",
       "_index.js",
       "_equality.js",
       "_exports.js"
@@ -58,10 +80,11 @@
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index.js"
+      "_index.js",
+      "_attributes.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.CHfR_j-7.css"
+      "_app/immutable/assets/_layout.Ci_VrpCs.css"
     ]
   },
   "src/routes/+page.svelte": {
@@ -70,25 +93,35 @@
     "src": "src/routes/+page.svelte",
     "isEntry": true
   },
-  "src/routes/A New Start Fan Cover/+page.svelte": {
-    "file": "entries/pages/A New Start Fan Cover/_page.svelte.js",
-    "name": "entries/pages/A New Start Fan Cover/_page.svelte",
-    "src": "src/routes/A New Start Fan Cover/+page.svelte",
-    "isEntry": true,
-    "css": [
-      "_app/immutable/assets/_page.MKAcH-36.css"
-    ]
-  },
   "src/routes/Oh hi meetups/+page.svelte": {
     "file": "entries/pages/Oh hi meetups/_page.svelte.js",
     "name": "entries/pages/Oh hi meetups/_page.svelte",
     "src": "src/routes/Oh hi meetups/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index.js"
+      "_index.js",
+      "_tweet.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.CkB_yRu6.css"
+      "_app/immutable/assets/_page.CkhCWGMu.css"
+    ]
+  },
+  "src/routes/Project Colon D/+page.svelte": {
+    "file": "entries/pages/Project Colon D/_page.svelte.js",
+    "name": "entries/pages/Project Colon D/_page.svelte",
+    "src": "src/routes/Project Colon D/+page.svelte",
+    "isEntry": true,
+    "css": [
+      "_app/immutable/assets/_page.BahTWtyC.css"
+    ]
+  },
+  "src/routes/Project Mumei/+page.svelte": {
+    "file": "entries/pages/Project Mumei/_page.svelte.js",
+    "name": "entries/pages/Project Mumei/_page.svelte",
+    "src": "src/routes/Project Mumei/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_tweet.js"
     ]
   }
 }

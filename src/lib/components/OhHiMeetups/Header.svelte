@@ -1,17 +1,20 @@
 <style>
-    .paper1 {
-    background-image: url("paper.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    filter: 
-        brightness(0.5)
-        sepia(0.4)
-        hue-rotate(-12deg)
-        saturate(5);
-}
+    .paper0 {
+        border-image-source: url("/img/paper0.webp");
+        background-size: cover;
+        border-image-slice: 8 4 8 16 fill;
+        border-image-width: 4px 4px 4px 20px;
+        border-image-outset: 0;
+        border-image-repeat: stretch;
+        filter: 
+            brightness(0.5)       /* Darkens */
+            sepia(0.4)              /* Base tint */
+            hue-rotate(-12deg)    /* Changes color (adjust degrees) */
+            saturate(5);     
+    }
 </style>
 
-<header class="paper1
+<header class="paper0
         flex flex-col justify-center items-center
         text-center font-semibold font-[Helvetica] tracking-wide
         ml-2 mr-0 mb-20 pt-4 px-10 pb-6

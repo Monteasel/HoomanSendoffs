@@ -7,7 +7,7 @@
     <p class="rounded-xl p-5 mx-20 md:mx-5 shadow-2xl" style="background-color: #e3dfcc;">
         Some Hoomans are planning on covering 'mumei'.
         <br>
-        Go support them and join their <a href="https://discord.gg/bx4aRNV8mD" class="underline italic">Discord</a> if you're interested in participating!
+        Go support them and join their <a href="https://discord.gg/bx4aRNV8mD" class="underline italic" target="_blank">Discord</a> if you're interested in participating!
     </p>
     <div class="flex flex-col justify-center items-center">
         <div class="w-1/3 pr-10 px-3 md:px-20">

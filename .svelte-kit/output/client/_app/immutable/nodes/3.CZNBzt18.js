@@ -1,1 +1,0 @@
-import"../chunks/CWj6FrbW.js";import"../chunks/69_IOA4Y.js";import{t as e,a as r}from"../chunks/BgPh7pK9.js";var o=e('<img src="thumb_a_new_start.jpg" alt="A New Start" class="thumb rounded-xl svelte-6jtedn">');function s(t){var a=o();r(t,a)}export{s as component};

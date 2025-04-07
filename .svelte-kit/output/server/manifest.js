@@ -7,16 +7,17 @@ function __memo(fn) {
 return {
 	appDir: "_app",
 	appPath: "_app",
-	assets: new Set(["colonD.png","favicon.png","left_arrow.svg","moomtest.jpg","moomtest.webp","moom_nightmare.webp","moom_spin.gif","moom_spin.mp4","oh_hi.mp4","paper.png","pinboard.jpg","rainbow.png","right-arrow.svg","ripped_note.png","thumb_a_new_start.jpg","thumb_mumei_song.jpg","thumb_oh_hi_meetups.jpg"]),
-	mimeTypes: {".png":"image/png",".svg":"image/svg+xml",".jpg":"image/jpeg",".webp":"image/webp",".gif":"image/gif",".mp4":"video/mp4"},
+	assets: new Set(["colonD.png","discord_logo.webp","favicon.png","img/paper0.webp","img/paper1.webp","img/thumb_oh_hi_meetups.webp","img/thumb_project_colon_d.webp","img/thumb_project_mumei.webp","left_arrow.svg","pin.webp","pinboard.webp","right-arrow.svg"]),
+	mimeTypes: {".png":"image/png",".webp":"image/webp",".svg":"image/svg+xml"},
 	_: {
-		client: {start:"_app/immutable/entry/start.DGvSyZLK.js",app:"_app/immutable/entry/app.jejjgrdf.js",imports:["_app/immutable/entry/start.DGvSyZLK.js","_app/immutable/chunks/VpZTEO20.js","_app/immutable/chunks/2jGIKJXQ.js","_app/immutable/chunks/DIeogL5L.js","_app/immutable/chunks/D_Of0FNA.js","_app/immutable/entry/app.jejjgrdf.js","_app/immutable/chunks/2jGIKJXQ.js","_app/immutable/chunks/DIeogL5L.js","_app/immutable/chunks/B7eQw6o7.js","_app/immutable/chunks/BgPh7pK9.js","_app/immutable/chunks/CWj6FrbW.js","_app/immutable/chunks/CRQsTqHm.js","_app/immutable/chunks/D_Of0FNA.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"_app/immutable/entry/start.BqLbnMJf.js",app:"_app/immutable/entry/app.6xa1TJF9.js",imports:["_app/immutable/entry/start.BqLbnMJf.js","_app/immutable/chunks/DT4QXLs0.js","_app/immutable/chunks/BlcRBTap.js","_app/immutable/chunks/DIeogL5L.js","_app/immutable/chunks/CUHNKxdP.js","_app/immutable/entry/app.6xa1TJF9.js","_app/immutable/chunks/BlcRBTap.js","_app/immutable/chunks/DIeogL5L.js","_app/immutable/chunks/-knDNOq3.js","_app/immutable/chunks/Bh7AO1rM.js","_app/immutable/chunks/BoL_NLux.js","_app/immutable/chunks/CWj6FrbW.js","_app/immutable/chunks/BtwOXLK7.js","_app/immutable/chunks/CUHNKxdP.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),
 			__memo(() => import('./nodes/2.js')),
 			__memo(() => import('./nodes/3.js')),
-			__memo(() => import('./nodes/4.js'))
+			__memo(() => import('./nodes/4.js')),
+			__memo(() => import('./nodes/5.js'))
 		],
 		routes: [
 			{
@@ -27,17 +28,24 @@ return {
 				endpoint: null
 			},
 			{
-				id: "/A New Start Fan Cover",
-				pattern: /^\/A New Start Fan Cover\/?$/,
+				id: "/Oh hi meetups",
+				pattern: /^\/Oh hi meetups\/?$/,
 				params: [],
 				page: { layouts: [0,], errors: [1,], leaf: 3 },
 				endpoint: null
 			},
 			{
-				id: "/Oh hi meetups",
-				pattern: /^\/Oh hi meetups\/?$/,
+				id: "/Project Colon D",
+				pattern: /^\/Project Colon D\/?$/,
 				params: [],
 				page: { layouts: [0,], errors: [1,], leaf: 4 },
+				endpoint: null
+			},
+			{
+				id: "/Project Mumei",
+				pattern: /^\/Project Mumei\/?$/,
+				params: [],
+				page: { layouts: [0,], errors: [1,], leaf: 5 },
 				endpoint: null
 			}
 		],

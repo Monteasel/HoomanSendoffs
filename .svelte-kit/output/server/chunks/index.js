@@ -1,4 +1,4 @@
-import "clsx";
+import { e as escape_html, t as to_class } from "./attributes.js";
 const HYDRATION_START = "[";
 const HYDRATION_END = "]";
 const HYDRATION_ERROR = {};
@@ -7,44 +7,6 @@ function lifecycle_outside_component(name) {
   {
     throw new Error(`https://svelte.dev/e/lifecycle_outside_component`);
   }
-}
-const ATTR_REGEX = /[&"<]/g;
-const CONTENT_REGEX = /[&<]/g;
-function escape_html(value, is_attr) {
-  const str = String(value ?? "");
-  const pattern = is_attr ? ATTR_REGEX : CONTENT_REGEX;
-  pattern.lastIndex = 0;
-  let escaped = "";
-  let last = 0;
-  while (pattern.test(str)) {
-    const i = pattern.lastIndex - 1;
-    const ch = str[i];
-    escaped += str.substring(last, i) + (ch === "&" ? "&amp;" : ch === '"' ? "&quot;" : "&lt;");
-    last = i + 1;
-  }
-  return escaped + str.substring(last);
-}
-const replacements = {
-  translate: /* @__PURE__ */ new Map([
-    [true, "yes"],
-    [false, "no"]
-  ])
-};
-function attr(name, value, is_boolean = false) {
-  if (value == null || !value && is_boolean) return "";
-  const normalized = name in replacements && replacements[name].get(value) || value;
-  const assignment = is_boolean ? "" : `="${escape_html(normalized, true)}"`;
-  return ` ${name}${assignment}`;
-}
-function to_class(value, hash, directives) {
-  var classname = value == null ? "" : "" + value;
-  if (hash) {
-    classname = classname ? classname + " " + hash : hash;
-  }
-  return classname === "" ? null : classname;
-}
-function to_style(value, styles) {
-  return value == null ? null : String(value);
 }
 var current_component = null;
 function getContext(key) {
@@ -129,16 +91,9 @@ function render(component, options = {}) {
     body: payload.out
   };
 }
-function stringify(value) {
-  return typeof value === "string" ? value : value == null ? "" : value + "";
-}
 function attr_class(value, hash, directives) {
   var result = to_class(value, hash);
   return result ? ` class="${escape_html(result, true)}"` : "";
-}
-function attr_style(value, directives) {
-  var result = to_style(value);
-  return result ? ` style="${escape_html(result, true)}"` : "";
 }
 function bind_props(props_parent, props_now) {
   for (const key in props_now) {
@@ -155,13 +110,9 @@ export {
   HYDRATION_START as a,
   HYDRATION_END as b,
   pop as c,
-  attr as d,
-  escape_html as e,
-  attr_class as f,
-  bind_props as g,
-  getContext as h,
-  attr_style as i,
-  stringify as j,
+  attr_class as d,
+  bind_props as e,
+  getContext as g,
   push as p,
   render as r,
   setContext as s

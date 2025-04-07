@@ -22,9 +22,9 @@
         <div class="projectsContainer
             pt-10 pb-50 min-h-screen
             flex justify-around items-center flex-wrap">
-            <ProjectPreview projectThumbnail="thumb_oh_hi_meetups.jpg" projectTitle="Oh hi meetups" projectRoute="Oh hi meetups" />
-            <ProjectPreview projectThumbnail="thumb_project_mumei.webp" projectTitle="Project Mumei" projectRoute="Project Mumei" />
-            <ProjectPreview projectThumbnail="thumb_project_colon_d.webp" projectTitle="Project :D" projectRoute="Project Colon D"/>
+            <ProjectPreview projectThumbnail="img/thumb_oh_hi_meetups.webp" projectTitle="Oh hi meetups" projectRoute="Oh hi meetups" />
+            <ProjectPreview projectThumbnail="img/thumb_project_mumei.webp" projectTitle="Project Mumei" projectRoute="Project Mumei" />
+            <ProjectPreview projectThumbnail="img/thumb_project_colon_d.webp" projectTitle="Project :D" projectRoute="Project Colon D"/>
         </div>
     </div>
 </div>

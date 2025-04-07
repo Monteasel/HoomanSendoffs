@@ -43,7 +43,6 @@
   function closeModal() {
     showModal = false;
   }
-  
 </script>
 
 <style>

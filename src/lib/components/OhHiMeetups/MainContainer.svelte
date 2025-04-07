@@ -1,5 +1,5 @@
 <script>
-    import MeetupCardAndMessageContainer from "$lib/components/MeetupCardAndMessageContainer.svelte"
+    import MeetupCardAndMessageContainer from "$lib/components/OhHiMeetups/MeetupCardAndMessageContainer.svelte"
 </script>
 
 <div class="px-20">

@@ -7,7 +7,7 @@
 </script>
 
 <div class="flex">
-	<div class="mr-[5%] flex-1">
+	<div class="mr-[12.5%] flex-1">
 		{@render children()}
 	</div>
 	<ProjectSelection />

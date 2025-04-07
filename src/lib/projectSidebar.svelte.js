@@ -1,5 +1,5 @@
 export let isProjectSidebarOpen = $state({
-    isOpen: true,
+    isOpen: false,
 });
 
 export function toggleProjectSidebar() {

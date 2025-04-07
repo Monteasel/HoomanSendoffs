@@ -12,7 +12,7 @@
     }
 </style>
 
-<a onclick={toggleProjectSidebar} href={`/${projectRoute}`} class="transition-all hover:scale-110 px-20">
+<a onclick={toggleProjectSidebar} href={`/${projectRoute}`} class="transition-all hover:scale-110">
     <div class="flex flex-col items-center justify-center">
         <img 
             class="rounded-xl w-60 h-60"

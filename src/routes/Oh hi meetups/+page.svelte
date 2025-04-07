@@ -1,13 +1,12 @@
 <script lang="ts">
-    import Header from "$lib/components/Header.svelte"
-    import MainContainer from "$lib/components/MainContainer.svelte";
+    import Header from "$lib/components/OhHiMeetups/Header.svelte"
+    import MainContainer from "$lib/components/OhHiMeetups/MainContainer.svelte";
+    import InfoAndFormsButtons from "$lib/components/OhHiMeetups/InfoAndFormsButtons.svelte";
+    import PlannedMeetups from "$lib/components/OhHiMeetups/PlannedMeetups.svelte";
 </script>
 
-<div class="min-h-screen" style="
-				background-image: url('pinboard.jpg');
-				/* background-color: #b69687; */
-				margin: 0;
-				min-height: 100vh;">
+<div class="min-h-screen w-auto">
     <Header/>
-    <MainContainer />
+    <InfoAndFormsButtons/>
+    <PlannedMeetups/>
 </div>

@@ -5,9 +5,8 @@
         justify-content: center;
         align-items: center;
         background-color: #674d46;
-        padding: 20px 50px 40px;
-        width: 100vw;
-        border-radius: 25px;
+        padding: 20px 50px 20px;
+        width: auto;
     }
 
     #header_title {
@@ -22,6 +21,6 @@
 
 <header id="header_container">
     <h1 id="header_title">
-        Nanashi Mumei Farewell Projects Collection
+        Hooman Sendoff Projects for Nanashi Mumei
     </h1>
 </header>

@@ -37,7 +37,7 @@
     <br>
     Check out their <a href="https://x.com/Fan_Project_MY" target="_blank" class="underline italic">Twitter/X</a> and <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDzEExt06ameWNjkDhQQaMUNTmlDcgsA1AkD42DoixWseTZw/viewform?fbzx=6445253454214006717" class="underline italic" target="_blank">form</a> for the project.
   </p>
-  <a href="https://moominworldwide.org/" target="_blank">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDzEExt06ameWNjkDhQQaMUNTmlDcgsA1AkD42DoixWseTZw/viewform?fbzx=6445253454214006717" target="_blank">
       <p class="visitSiteButton text-white rounded-xl p-5 mt-7 mb-5 mx-20 md:mx-20 shadow-2xl underline italic transition-all duration-200 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-105">
         Check out their form
       </p>

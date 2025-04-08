@@ -38,7 +38,7 @@
         Check out their <a href="https://x.com/MoominManila" target="_blank" class="underline italic">Twitter/X</a> and <a href="https://moominworldwide.org/" class="underline italic" target="_blank">website</a> for the project.
     </p>
     <a href="https://moominworldwide.org/" target="_blank">
-        <p class="visitSiteButton rounded-xl p-5 mt-7 mx-20 md:mx-20 shadow-2xl underline italic transition-all duration-200 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-105">
+        <p class="visitSiteButton rounded-xl p-5 mt-7 mb-5 mx-20 md:mx-20 shadow-2xl underline italic transition-all duration-200 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-105">
             Visit the "Moomin' Worldwide" website
         </p>
     </a>

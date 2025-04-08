@@ -26,16 +26,16 @@ function safe_equals(value) {
 export {
   array_prototype as a,
   get_prototype_of as b,
-  is_extensible as c,
-  index_of as d,
+  safe_equals as c,
+  is_extensible as d,
   equals as e,
-  define_property as f,
+  index_of as f,
   get_descriptor as g,
-  array_from as h,
+  define_property as h,
   is_array as i,
-  safe_not_equal as j,
+  array_from as j,
   noop as n,
   object_prototype as o,
   run_all as r,
-  safe_equals as s
+  safe_not_equal as s
 };

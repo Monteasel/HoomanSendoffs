@@ -1,5 +1,24 @@
 <script>
     import {Tweet} from "sveltekit-embed";
+
+    // makes twitter embeds work no touchy
+    import { afterNavigate } from '$app/navigation';
+    import { onMount } from 'svelte';
+    
+    
+    function reloadTwitter() {
+        if (window.twttr?.widgets?.load) {
+        window.twttr.widgets.load();
+        }
+    }
+    
+    onMount(reloadTwitter);
+    
+    afterNavigate(() => {
+        setTimeout(() => {
+        reloadTwitter();
+        }, 50);
+    });
 </script>
 
 <div class="max-w-100 md:max-w-full">

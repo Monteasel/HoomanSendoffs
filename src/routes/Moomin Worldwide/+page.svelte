@@ -14,7 +14,7 @@
         Pics/vids of the project will be shared when it's happening
       </p>
       <div class="ml-5 md:ml-0 max-w-80 md:max-w-full">
-          <Tweet tweetLink="MoominManila/status/1907644242429915140" theme="dark"/>
+          <Tweet tweetLink="MoominManila/status/1907644242429915140" />
       </div>
     </div>
 </div>

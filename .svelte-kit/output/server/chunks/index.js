@@ -95,25 +95,15 @@ function attr_class(value, hash, directives) {
   var result = to_class(value, hash);
   return result ? ` class="${escape_html(result, true)}"` : "";
 }
-function bind_props(props_parent, props_now) {
-  for (const key in props_now) {
-    const initial_value = props_parent[key];
-    const value = props_now[key];
-    if (initial_value === void 0 && value !== void 0 && Object.getOwnPropertyDescriptor(props_parent, key)?.set) {
-      props_parent[key] = value;
-    }
-  }
-}
 export {
   HYDRATION_ERROR as H,
   UNINITIALIZED as U,
-  HYDRATION_START as a,
-  HYDRATION_END as b,
-  pop as c,
-  attr_class as d,
-  bind_props as e,
+  attr_class as a,
+  push as b,
+  HYDRATION_START as c,
+  HYDRATION_END as d,
   getContext as g,
-  push as p,
+  pop as p,
   render as r,
   setContext as s
 };

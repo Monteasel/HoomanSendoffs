@@ -3,23 +3,17 @@
     let {projectThumbnail, projectTitle, projectRoute} = $props();
 </script>
 
-<style>
-    .projectTitle {
-        text-align: center;
-        font-family: "Helvetica";
-        font-style: italic;
-        padding: 10px 0px 0px 0px;
-    }
-</style>
-
 <a onclick={toggleProjectSidebar} href={`/${projectRoute}`} class="transition-all hover:scale-110">
     <div class="flex flex-col items-center justify-center">
         <img 
             class="rounded-xl
-            w-30 h-30
+            w-40 h-40
             md:w-60 md:h-60"
+            style="border: 3px solid #674d46; background-color: #eadac2;"
             src={projectThumbnail} alt="Project Thumbnail">
-        <h3 class="projectTitle">
+        <h3 class="rounded-xl px-2 py-1 font-[Helvetica] text-lg text-center max-w-3/4"
+            style="background-color: #4e8285;
+                border-radius: 0px 0px 9px 9px; border-color: #674d46; border-style: solid; border-width: 3px; border-top-style: none;">
             {projectTitle}
         </h3>
     </div>

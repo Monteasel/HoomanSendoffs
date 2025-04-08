@@ -3,6 +3,7 @@
     import ToggleButton from "$lib/components/ProjectSelection/ToggleButton.svelte"
     import ProjectPreview from "$lib/components/ProjectSelection/ProjectPreview.svelte"
 	import { isProjectSidebarOpen } from "$lib/projectSidebar.svelte";
+    import {visitedSiteOnce} from "$lib/projectSidebar.svelte";
 </script>
 
 <style>
@@ -16,7 +17,9 @@
     flex h-screen fixed z-100 w-full
     transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]
     ${isProjectSidebarOpen.isOpen ? '' : 'translate-x-[87.5%]'}`}>
-    <ToggleButton />
+    {#if visitedSiteOnce.visitedOnce}
+        <ToggleButton />
+    {/if}
     <div class="grow-1">
         <Header />
         <div class="projectsContainer

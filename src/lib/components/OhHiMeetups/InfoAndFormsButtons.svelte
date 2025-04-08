@@ -1,19 +1,3 @@
-<script>
-  import { onMount } from 'svelte';
-
-  onMount(() => {
-    const script = document.createElement('script');
-    script.src = 'https://platform.twitter.com/widgets.js';
-    script.async = true;
-    script.charset = 'utf-8';
-    document.body.appendChild(script);
-    
-    return () => {
-      document.body.removeChild(script);
-    };
-  });
-</script>
-
 <style>
     .formsButton {
         border-image: url("ripped.png") 30 round;
@@ -89,7 +73,7 @@
     </div>
 </div>
 
-<p class="mt-50 mx-40 p-10 text-center font-semibold font-[Indie_Flower] text-5xl paper0 rotate-2">
+<p class="mt-50 md:mx-40 p-10 text-center font-semibold font-[Indie_Flower] text-5xl paper0 rotate-2">
     Planned meetups.
     <br>
     Go attend one if you can!
@@ -104,7 +88,3 @@
         </p>
     </a>
 </div>
-
-<blockquote class="twitter-tweet">
-  <a href="https://x.com/Whathekyle/status/1906946867189129549"></a>
-</blockquote>

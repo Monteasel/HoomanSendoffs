@@ -9,10 +9,10 @@
         <br>
         Go support them and join their <a href="https://discord.gg/bx4aRNV8mD" class="underline italic" target="_blank">Discord</a> if you're interested in participating!
     </p>
+    <div class="ml-5 md:ml-0 max-w-80 md:max-w-full">
+        <Tweet tweetLink="eln_ight/status/1905590069119123743" theme="dark"/>
+    </div>
     <div class="flex flex-col justify-center items-center">
-        <div class="w-1/3 pr-10 px-3 md:px-20">
-            <Tweet tweetLink="eln_ight/status/1905590069119123743" theme="dark"/>
-        </div>
         <div class="flex justify-center items-center">
             <a href="https://discord.gg/bx4aRNV8mD" target="_blank" class="transition-all duration-100 hover:scale-110 w-[50%] ">
                 <img src="discord_logo.webp">

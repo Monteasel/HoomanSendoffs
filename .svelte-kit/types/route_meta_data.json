@@ -1,6 +1,18 @@
 {
-	"/": [],
-	"/Oh hi meetups": [],
-	"/Project Colon D": [],
-	"/Project Mumei": []
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/Moomin Worldwide": [
+		"src/routes/+layout.js"
+	],
+	"/Oh hi meetups": [
+		"src/routes/+layout.js"
+	],
+	"/Project Colon D": [
+		"src/routes/+layout.js"
+	],
+	"/Project Mumei": [
+		"src/routes/+layout.js"
+	]
 }

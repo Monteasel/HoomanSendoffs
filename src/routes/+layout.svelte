@@ -2,8 +2,6 @@
 	import '../app.css';
 	import ProjectSelection from "$lib/components/ProjectSelection/ProjectSelection.svelte"
 	let { children } = $props();
-
-	export const prerender = true;
 </script>
 
 <div class="flex">

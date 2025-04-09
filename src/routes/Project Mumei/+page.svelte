@@ -23,7 +23,7 @@
 
 <div class="min-h-screen w-full
     font-[Helvetica] md:text-2xl text-center flex flex-col pt-[2%]" style="background-color: #2a2b2f;">
-    <p class="rounded-xl p-5 mx-20 md:mx-5 shadow-2xl" style="color: #1f1f1f; border: 4px solid #1f1f1f; background-color: #e3dfcc;">
+    <p class="rounded-xl p-5 mx-2 md:mx-20 shadow-2xl" style="color: #1f1f1f; border: 4px solid #1f1f1f; background-color: #e3dfcc;">
         Some Hoomans are planning on covering 'mumei'.
         <br>
         Go support them and join their <a href="https://discord.gg/bx4aRNV8mD" class="underline italic" target="_blank">Discord</a> if you're interested in participating!

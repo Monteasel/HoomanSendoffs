@@ -32,13 +32,13 @@
 
 <div class="min-h-screen font-[Helvetica] md:text-2xl text-center flex flex-col pt-[2%] text-white"
     style="background: rgb(220,194,169); background: linear-gradient(90deg, rgba(220,194,169,1) 25%, rgba(236,213,184,1) 50%, rgba(234,218,194,1) 75%);">
-    <p class="rounded-xl p-5 mx-20 md:mx-5 shadow-2xl opacity-90" style="background-color: #7b5f4c;">
+    <p class="rounded-xl p-5 mx-2 md:mx-20 shadow-2xl opacity-90" style="background-color: #7b5f4c;">
         Moomin' Worldwide intends to put Mumei on a spherical digital billboard in the Phillipines together with art by the Hoomans.
         <br>
         Check out their <a href="https://x.com/MoominManila" target="_blank" class="underline italic">Twitter/X</a> and <a href="https://moominworldwide.org/" class="underline italic" target="_blank">website</a> for the project.
     </p>
     <a href="https://moominworldwide.org/" target="_blank">
-        <p class="visitSiteButton rounded-xl p-5 mt-7 mb-5 mx-20 md:mx-20 shadow-2xl underline italic transition-all duration-200 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-105">
+        <p class="visitSiteButton rounded-xl p-5 mt-7 mb-5 mx-5 md:mx-20 shadow-2xl underline italic transition-all duration-200 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-105">
             Visit the "Moomin' Worldwide" website
         </p>
     </a>

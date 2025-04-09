@@ -83,8 +83,6 @@
                 Plan on organizing<br>a meetup? Share<br>it here!
             </p>
         <div class="rotate-6 transition-all duration-200 hover:scale-110 md:translate-y-18 translate-x-12">
-            <img src="pin.webp" alt="pin" class="absolute w-10 left-1/40 top-2/16 z-70" style="transform: translate(-25%, -10%);">
-            <img src="pin.webp" alt="pin" class="absolute w-10 left-31/40 top-5/16 z-70" style="transform: translate(-25%, -10%);">
             <a href="" class="paper0 formsButton underline rotate-3 -translate-x-8 translate-y-4" style="padding: 3rem;">
                 Share your planned meetup
             </a>
@@ -93,8 +91,6 @@
 </div>
 
 <div class="rotate-2">
-    <img src="pin.webp" alt="pin" class="absolute w-10 left-8/40 top-2/16 z-70" style="transform: translate(-25%, -10%);">
-    <img src="pin.webp" alt="pin" class="absolute w-10 left-31/40 top-5/16 z-70" style="transform: translate(-25%, -10%);">
     <p class="mt-40 md:mx-40 p-10 text-center font-semibold font-[Indie_Flower] text-5xl paper0">
         Planned meetups.
         <br>

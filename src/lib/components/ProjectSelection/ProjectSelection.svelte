@@ -23,8 +23,8 @@
     <div class="grow-1">
         <Header />
         <div class="projectsContainer
-            pt-10 pb-50 min-h-screen
-            flex justify-around items-center flex-wrap gap-5">
+            pt-0 md:pt-10 pb-150 md:pb-50 min-h-screen
+            flex justify-around items-center flex-wrap gap-0 md:gap-5">
             <ProjectPreview projectThumbnail="img/thumb_oh_hi_meetups.webp" projectTitle="Oh hi meetups" projectRoute="Oh hi meetups" />
             <ProjectPreview projectThumbnail="img/thumb_project_mumei.webp" projectTitle="Project Mumei" projectRoute="Project Mumei" />
             <ProjectPreview projectThumbnail="img/thumb_project_colon_d.webp" projectTitle="Project :D" projectRoute="Project Colon D"/>

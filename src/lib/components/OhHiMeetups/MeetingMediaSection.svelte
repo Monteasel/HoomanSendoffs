@@ -89,13 +89,13 @@
     }
 </style>
 
-<div class="rotate-2 -translate-y-30 lg:-translate-y-170">
+<div class="rotate-2">
     <p class="mt-40 ml-10 md:ml-40 md:mx-40 p-10 text-center font-semibold font-[Indie_Flower] text-2xl md:text-3xl paper0">
         Moments from the Hooman's meetups
     </p>
 </div>
 
-<div class="md:flex justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-5 mb-20 -translate-y-30 lg:-translate-y-170">
+<div class="md:flex justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-5">
     <div class="md:flex flex-col justify-center items-center gap-10" style="">
         <video src="img/reyes/reyes0.mp4" loop autoplay
             class="polaroid rotate-4 mb-12 md:mb-0 scale-110"></video>
@@ -114,6 +114,19 @@
     </div>
 </div>
 
+<a href="https://x.com/reyes_the_only1/status/1909031049272988123" target="_blank" class="w-[50%] ">
+    <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 flex justify-center items-center
+        transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110" style="background-color: #866b58;">
+        <span class="text-center underline">
+            Original by<br>@reyes_the_only1
+        </span>
+        <div class="flex justify-center items-center">
+            <div class="w-[50%]">
+                <img src="twitter_logo.webp" class="w-20">
+            </div>
+        </div>
+    </div>
+</a>
 
 
 

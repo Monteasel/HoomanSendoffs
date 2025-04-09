@@ -91,7 +91,7 @@
 </div>
 
 <div class="rotate-2">
-    <p class="mt-40 md:mx-40 p-10 text-center font-semibold font-[Indie_Flower] text-5xl paper0">
+    <p class="mt-40 md:mx-40 p-10 text-center font-semibold font-[Indie_Flower] text-2xl md:text-5xl paper0">
         Planned meetups.
         <br>
         Go attend one if you can!

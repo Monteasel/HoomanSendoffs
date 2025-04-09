@@ -38,7 +38,7 @@
                 <ProjectPreview projectThumbnail="img/thumb_project_colon_d.webp" projectTitle="Project :D" projectRoute="Project Colon D"/>
                 <ProjectPreview projectThumbnail="img/thumb_moomin_worldwide.webp" projectTitle="Moomin' Worldwide" projectRoute="Moomin Worldwide"/>
             </div>
-            <div class="flex flex-col justify-center items-center mt-2 md:mt-20 mx-20 text-center">
+            <div class="flex flex-col justify-center items-center mt-2 md:mt-20 mx-2 md:mx-20 text-center">
                 <p class="rounded-xl p-4 mb-2" style="background-color: #af9586; border: 3px solid #674d46;">
                     Need help with or wanna share your project to show Mumei your support?
                 </p>

@@ -55,19 +55,11 @@
         background-repeat: no-repeat;
         background-size: contain;
     }
-
-    .yellow_sticky {
-        background-image: url("/img/yellow_sticky.webp");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
 </style>
 
 <div class="md:flex text-center md:justify-between w-full px-4 md:pl-70 md:gap-8">
     <div class="relative w-full">
         <div class="">
-            <img src="pin.webp" alt="pin" class="absolute w-10 left-1/2 top-2/30 z-70" style="transform: translate(-50%, -30%);">
             <p class="paper0 formsButtonDesc text-lg md:text-3xl p-1 pt-6 md:p-8 md:pt-10" style="">
                 Take a photo/video with a sign of you saying "oh hi from ___" like proposed <a href="https://x.com/edgy_tt/status/1905505125520539910" class="underline italic" target="_blank">here</a>.
             </p>
@@ -88,22 +80,4 @@
             </a>
         </div>
     </div>
-</div>
-
-<div class="rotate-2">
-    <p class="mt-40 ml-10 md:ml-40 px-5 py-10 text-center font-semibold font-[Indie_Flower] text-2xl md:text-3xl paper0">
-        Planned meetups.
-        <br>
-        Go attend one if you can!
-    </p>
-</div>
-
-<div class="mt-4 ml-[20%] md:ml-[60%] mr-[6%] ">
-    <a href="https://discord.gg/f5bA6w2zkn" target="_blank" class="underline">
-        <p class="md:px-3 py-30 md:scale-100
-            text-center font-medium font-[Indie_Flower] text-lg md:text-xl text-nowrap yellow_sticky
-            rotate-2 transition-all duration-200 hover:scale-110">
-            Lots of meetups are<br>being planned in this<br>discord server here as<br>well (mainly US)!
-        </p>
-    </a>
 </div>

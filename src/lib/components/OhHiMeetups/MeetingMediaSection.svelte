@@ -22,8 +22,8 @@
         border-image-repeat: stretch;
         filter: 
             brightness(0.8)       /* Darkens */
-            sepia(0.4)              /* Base tint */
-            hue-rotate(-12deg)    /* Changes color (adjust degrees) */
+            sepia(0.2)              /* Base tint */
+            hue-rotate(160deg)    /* Changes color (adjust degrees) */
             saturate(5);     
     }
 

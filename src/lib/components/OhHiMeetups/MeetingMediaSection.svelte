@@ -90,7 +90,7 @@
 </style>
 
 <div class="rotate-2 -translate-y-30 lg:-translate-y-170">
-    <p class="mt-40 md:mx-40 p-10 text-center font-semibold font-[Indie_Flower] text-2xl md:text-5xl paper0">
+    <p class="mt-40 ml-10 md:ml-40 md:mx-40 p-10 text-center font-semibold font-[Indie_Flower] text-2xl md:text-3xl paper0">
         Moments from the Hooman's meetups
     </p>
 </div>

@@ -9,7 +9,7 @@
 
     .formsButtonDesc {
         border-image: url("ripped.png") 30 round;
-        font-weight: 500;
+        font-weight: 600;
         font-family: "Indie Flower", cursive;
         letter-spacing: 0.5px;
     }
@@ -72,16 +72,18 @@
                 Take a photo/video with a sign of you saying "oh hi from ___" like proposed <a href="https://x.com/edgy_tt/status/1905505125520539910" class="underline italic" target="_blank">here</a>.
             </p>
         </div>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScdsI-Ny4u_MqfYrBKAb_vZNw6FTNjqtJmhRlEcKqTa_eUC0w/viewform?usp=sharing" class="green_sticky py-30 text-lg md:text-3xl formsButton underline -rotate-8 md:-translate-x-16 md:translate-y-14 transition-all duration-200 hover:scale-110" target="_blank">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScdsI-Ny4u_MqfYrBKAb_vZNw6FTNjqtJmhRlEcKqTa_eUC0w/viewform?usp=sharing"
+            class="green_sticky py-30 text-2xl md:text-3xl formsButton underline -rotate-8 md:-translate-x-16 md:translate-y-14 transition-all duration-200 hover:scale-110" target="_blank">
             Share your oh hi
         </a>
     </div>
     <div class="relative w-full">
-            <p class="formsButtonDesc purple_sticky text-lg md:text-3xl pr-2 md:px-10 xl:px-16 py-20 rotate-2 text-nowrap">
+            <p class="formsButtonDesc purple_sticky text-xl md:text-3xl pr-2 md:px-10 xl:px-16 py-20 rotate-2 text-nowrap">
                 Plan or know<br>a meetup? Share<br>it here!
             </p>
         <div class="rotate-6 transition-all duration-200 hover:scale-110 md:translate-y-18 translate-x-12">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLEYcTJ5XHeCTUCUWq5p2eK5zNQkqPQXWtCyNCcUi-840Fyw/viewform?usp=sharing" class="paper0 formsButton underline rotate-3 text-lg md:text-3xl -translate-x-8 translate-y-4" style="padding: 3rem;" target="_blank">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLEYcTJ5XHeCTUCUWq5p2eK5zNQkqPQXWtCyNCcUi-840Fyw/viewform?usp=sharing"
+                class="paper0 formsButton underline rotate-3 text-2xl md:text-3xl -translate-x-8 translate-y-4" style="padding: 3rem;" target="_blank">
                 Share a planned meetup
             </a>
         </div>
@@ -89,17 +91,17 @@
 </div>
 
 <div class="rotate-2">
-    <p class="mt-40 md:mx-40 p-10 text-center font-semibold font-[Indie_Flower] text-2xl md:text-5xl paper0">
+    <p class="mt-40 ml-10 md:ml-40 px-5 py-10 text-center font-semibold font-[Indie_Flower] text-2xl md:text-3xl paper0">
         Planned meetups.
         <br>
         Go attend one if you can!
     </p>
 </div>
 
-<div class="mt-14 ml-[50%] md:ml-[70%] mr-[6%] ">
+<div class="mt-4 ml-[20%] md:ml-[60%] mr-[6%] ">
     <a href="https://discord.gg/f5bA6w2zkn" target="_blank" class="underline">
-        <p class="md:px-3 py-30 scale-150 md:scale-100
-            text-center font-medium font-[Indie_Flower] text-xs sm:text-md md:text-lg text-nowrap yellow_sticky
+        <p class="md:px-3 py-30 md:scale-100
+            text-center font-medium font-[Indie_Flower] text-lg md:text-xl text-nowrap yellow_sticky
             rotate-2 transition-all duration-200 hover:scale-110">
             Lots of meetups are<br>being planned in this<br>discord server here as<br>well (mainly US)!
         </p>

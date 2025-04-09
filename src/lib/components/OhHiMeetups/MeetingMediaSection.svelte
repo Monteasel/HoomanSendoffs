@@ -21,7 +21,7 @@
         border-image-outset: 0;
         border-image-repeat: stretch;
         filter: 
-            brightness(0.5)       /* Darkens */
+            brightness(0.8)       /* Darkens */
             sepia(0.4)              /* Base tint */
             hue-rotate(-12deg)    /* Changes color (adjust degrees) */
             saturate(5);     
@@ -89,13 +89,13 @@
     }
 </style>
 
-<div class="rotate-2">
+<div class="rotate-2 -translate-y-30 lg:-translate-y-170">
     <p class="mt-40 md:mx-40 p-10 text-center font-semibold font-[Indie_Flower] text-5xl paper0">
         Moments from the Hooman's meetups
     </p>
 </div>
 
-<div class="md:flex justify-around items-center gap-12 w-full ml-2 md:ml-30 mt-5 mb-20">
+<div class="md:flex justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-5 mb-20 -translate-y-30 lg:-translate-y-170">
     <div class="md:flex flex-col justify-center items-center gap-10" style="">
         <video src="img/reyes/reyes0.mp4" loop autoplay
             class="polaroid rotate-4 mb-12 md:mb-0 scale-110"></video>

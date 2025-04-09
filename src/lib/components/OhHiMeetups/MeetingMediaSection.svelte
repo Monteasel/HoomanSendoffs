@@ -74,7 +74,6 @@
     .polaroidText {
         color: black;
         text-align: center;
-        font-size: x-large;
         font-weight: 600;
         font-family: "Indie Flower";
         letter-spacing: 0.5rem;
@@ -106,7 +105,7 @@
     <div class="rotate-3 modalable mb-12 md:mb-0" style="flex: 0 0 38%;">
         <img src="img/reyes/reyes2.webp" alt="Moom Shrine Meetup"
             class="polaroidWithText" onclick={displayModal}>
-        <p class="polaroidText -translate-y-10">
+        <p class="polaroidText -translate-y-10 text-lg md:text-2xl">
             Oh hi from SoCal !!
         </p>
     </div>

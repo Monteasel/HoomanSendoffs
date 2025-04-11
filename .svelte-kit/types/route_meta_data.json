@@ -6,6 +6,9 @@
 	"/Moomin Worldwide": [
 		"src/routes/+layout.js"
 	],
+	"/Mumei Fan Recreation": [
+		"src/routes/+layout.js"
+	],
 	"/Oh hi meetups": [
 		"src/routes/+layout.js"
 	],

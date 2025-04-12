@@ -67,11 +67,11 @@
     <div class="md:block hidden ml-[10%]">
         <div class="flex justify-center items-center gap-40">
             <div class="flex flex-col justify-center items-center flex-1">
-                <div class="relative rotate-2 w-full">
+                <div class="relative rotate-3 w-full">
                     <img src="pin.webp" alt="pin" class="absolute w-10 left-1/2 top-1/60 z-70" style="transform: translate(-50%, 0%);">
                     <Tweet tweetLink="Whathekyle/status/1906946867189129549" theme="dark"/>
                 </div>
-                <div class="relative rotate-3 w-full">
+                <div class="relative -rotate-3 w-full">
                     <img src="pin.webp" alt="pin" class="absolute w-10 left-1/2 top-1/60 z-70" style="transform: translate(-50%, 0%);">
                     <Tweet tweetLink="NightBunnyKJE26/status/1906355894637703453" theme="dark"/>
                 </div>
@@ -79,15 +79,23 @@
                     <img src="pin.webp" alt="pin" class="absolute w-10 left-1/2 top-1/60 z-70" style="transform: translate(-50%, 0%);">
                     <Tweet tweetLink="m0nteasel/status/1910032015681892487" theme="dark"/>
                 </div>
+                <div class="relative -rotate-3 w-full">
+                    <img src="pin.webp" alt="pin" class="absolute w-10 left-1/2 top-1/60 z-70" style="transform: translate(-50%, 0%);">
+                    <Tweet tweetLink="LordGeorgeXVI/status/1910327066542616809" theme="dark"/>
+                </div>
             </div>
             <div class="flex flex-col justify-center items-center flex-1 -translate-y-10">
-                <div class="relative -rotate-2 w-full">
+                <div class="relative -rotate-3 w-full">
                     <img src="pin.webp" alt="pin" class="absolute w-10 left-1/2 top-1/60 z-70" style="transform: translate(-50%, 0%);">
                     <Tweet tweetLink="TiAineko/status/1906808953511539100" theme="dark"/>
                 </div>
-                <div class="relative -rotate-2 w-full">
+                <div class="relative rotate-3 w-full">
                     <img src="pin.webp" alt="pin" class="absolute w-10 left-1/2 top-1/60 z-70" style="transform: translate(-50%, 0%);">
                     <Tweet tweetLink="Sandysandvich/status/1909993851051204876" theme="dark"/>
+                </div>
+                <div class="relative -rotate-3 w-full">
+                    <img src="pin.webp" alt="pin" class="absolute w-10 left-1/2 top-1/60 z-70" style="transform: translate(-50%, 0%);">
+                    <Tweet tweetLink="Avi_Kav/status/1908561137945158135" theme="dark"/>
                 </div>
             </div>
         </div>
@@ -95,11 +103,11 @@
 
     <div class="block md:hidden ml-[20%]">
         <div class="flex flex-col justify-center items-center">
-            <div class="relative rotate-2 w-full">
+            <div class="relative rotate-3 w-full">
                 <img src="pin.webp" alt="pin" class="absolute w-10 left-1/2 top-1/60 z-70" style="transform: translate(-50%, 0%);">
                 <Tweet tweetLink="Whathekyle/status/1906946867189129549" theme="dark"/>
             </div>
-            <div class="relative -rotate-2 w-full">
+            <div class="relative -rotate-3 w-full">
                 <img src="pin.webp" alt="pin" class="absolute w-10 left-1/2 top-1/60 z-70" style="transform: translate(-50%, 0%);">
                 <Tweet tweetLink="TiAineko/status/1906808953511539100" theme="dark"/>
             </div>
@@ -107,13 +115,21 @@
                 <img src="pin.webp" alt="pin" class="absolute w-10 left-1/2 top-1/60 z-70" style="transform: translate(-50%, 0%);">
                 <Tweet tweetLink="NightBunnyKJE26/status/1906355894637703453" theme="dark"/>
             </div>
-            <div class="relative -rotate-2 w-full">
+            <div class="relative -rotate-3 w-full">
                 <img src="pin.webp" alt="pin" class="absolute w-10 left-1/2 top-1/60 z-70" style="transform: translate(-50%, 0%);">
                 <Tweet tweetLink="Sandysandvich/status/1909993851051204876" theme="dark"/>
             </div>
             <div class="relative rotate-3 w-full">
                 <img src="pin.webp" alt="pin" class="absolute w-10 left-1/2 top-1/60 z-70" style="transform: translate(-50%, 0%);">
                 <Tweet tweetLink="m0nteasel/status/1910032015681892487" theme="dark"/>
+            </div>
+            <div class="relative -rotate-3 w-full">
+                <img src="pin.webp" alt="pin" class="absolute w-10 left-1/2 top-1/60 z-70" style="transform: translate(-50%, 0%);">
+                <Tweet tweetLink="Avi_Kav/status/1908561137945158135" theme="dark"/>
+            </div>
+            <div class="relative rotate-3 w-full">
+                <img src="pin.webp" alt="pin" class="absolute w-10 left-1/2 top-1/60 z-70" style="transform: translate(-50%, 0%);">
+                <Tweet tweetLink="LordGeorgeXVI/status/1910327066542616809" theme="dark"/>
             </div>
         </div>
     </div>

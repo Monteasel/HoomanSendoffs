@@ -36,7 +36,7 @@
                 <ProjectPreview projectThumbnail="img/thumb_oh_hi_meetups.webp" projectTitle="Oh hi meetups" projectRoute="Oh hi meetups" />
                 <ProjectPreview projectThumbnail="img/thumb_project_mumei.webp" projectTitle="Project Mumei" projectRoute="Project Mumei" />
                 <ProjectPreview projectThumbnail="img/thumb_project_colon_d.webp" projectTitle="Project :D" projectRoute="Project Colon D"/>
-                <ProjectPreview projectThumbnail="img/thumb_moomin_worldwide.webp" projectTitle="Moomin' Worldwide" projectRoute="Moomin Worldwide"/>
+                <ProjectPreview projectThumbnail="img/thumb_moomin_worldwide2.webp" projectTitle="Moomin' Worldwide" projectRoute="Moomin Worldwide"/>
                 <ProjectPreview projectThumbnail="img/thumb_mumei_fan_recreation.webp" projectTitle="Mumei Fan Recreation" projectRoute="Mumei Fan Recreation"/>
             </div>
             <div class="flex flex-col justify-center items-center mt-2 md:mt-20 mx-2 md:mx-20 text-center">

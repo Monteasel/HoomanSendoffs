@@ -27,6 +27,15 @@
             saturate(5);     
     }
 
+    .paper1 {
+        border-image-source: url("/img/paper0.webp");
+        background-size: cover;
+        border-image-slice: 8 4 8 16 fill;
+        border-image-width: 4px 4px 4px 20px;
+        border-image-outset: 0;
+        border-image-repeat: stretch;
+    }
+
     .modal {
         display: flex; /* Hidden by default */
         position: fixed; /* Stay in place */
@@ -114,10 +123,12 @@
     </div>
 </div>
 
+
+
 <a href="https://x.com/reyes_the_only1/status/1909031049272988123" target="_blank" class="w-[50%] ">
     <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 flex justify-center items-center
-        transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110" style="background-color: #866b58;">
-        <span class="text-center underline">
+        transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
+        <span class="text-center underline font-[Indie_Flower] font-semibold">
             Original by<br>@reyes_the_only1
         </span>
         <div class="flex justify-center items-center">
@@ -127,6 +138,46 @@
         </div>
     </div>
 </a>
+
+
+
+
+<div class="md:flex flex-col justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-20">
+    <div class="md:flex justify-center items-center gap-10" style="">
+        <img src="img/berry/HoomanGroupPhoto.webp" alt="Hooman group photo"
+            class="polaroid modalable md:w-1/2 rotate-3" onclick={displayModal}>:
+        <img src="img/berry/MoomShrine.webp" alt="Moom shrine"
+            class="polaroid modalable md:w-1/2 -rotate-2 md:-translate-y-10" onclick={displayModal}>:
+    </div>
+
+    <div class="md:flex justify-center items-center gap-10" style="">
+        <div class="rotate-3 md:-translate-x-40">
+            <video src="img/berry/OhHiMumei.mp4" controls
+                class="polaroidWithText"></video>
+            <p class="polaroidText -translate-y-10 text-md md:text-2xl">
+                Oh hi from Singapore !!
+            </p>
+        </div>
+        <video src="img/berry/MoomMerchShrine.mp4" controls
+            class="polaroid -rotate-2 md:w-1/4"></video>
+    </div>
+</div>
+
+<a href="https://x.com/myrthre/status/1906617604523045126" target="_blank" class="w-[50%] ">
+    <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
+        transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
+        <span class="text-center underline font-[Indie_Flower] font-semibold">
+            Original by<br>berry
+        </span>
+        <div class="flex justify-center items-center">
+            <div class="w-[50%]">
+                <img src="twitter_logo.webp" class="w-20">
+            </div>
+        </div>
+    </div>
+</a>
+
+
 
 
 

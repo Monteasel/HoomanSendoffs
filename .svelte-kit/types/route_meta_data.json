@@ -9,6 +9,9 @@
 	"/Mumei Fan Recreation": [
 		"src/routes/+layout.js"
 	],
+	"/Mumei Fanart Gallery": [
+		"src/routes/+layout.js"
+	],
 	"/Oh hi meetups": [
 		"src/routes/+layout.js"
 	],

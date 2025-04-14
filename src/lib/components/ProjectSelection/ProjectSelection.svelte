@@ -38,6 +38,7 @@
                 <ProjectPreview projectThumbnail="img/thumb_project_colon_d.webp" projectTitle="Project :D" projectRoute="Project Colon D"/>
                 <ProjectPreview projectThumbnail="img/thumb_moomin_worldwide2.webp" projectTitle="Moomin' Worldwide" projectRoute="Moomin Worldwide"/>
                 <ProjectPreview projectThumbnail="img/thumb_mumei_fan_recreation.webp" projectTitle="Mumei Fan Recreation" projectRoute="Mumei Fan Recreation"/>
+                <ProjectPreview projectThumbnail="img/thumb_fanart_gallery_tribute.webp" projectTitle="Nanashi Mumei Fanart Gallery" projectRoute="Mumei Fanart Gallery"/>
             </div>
             <div class="flex flex-col justify-center items-center mt-2 md:mt-20 mx-2 md:mx-20 text-center">
                 <p class="rounded-xl p-4 mb-2" style="background-color: #af9586; border: 3px solid #674d46;">

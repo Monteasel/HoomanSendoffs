@@ -8,7 +8,8 @@ export const nodes = [
 	() => import('./nodes/4'),
 	() => import('./nodes/5'),
 	() => import('./nodes/6'),
-	() => import('./nodes/7')
+	() => import('./nodes/7'),
+	() => import('./nodes/8')
 ];
 
 export const server_loads = [];
@@ -17,9 +18,10 @@ export const dictionary = {
 		"/": [2],
 		"/Moomin Worldwide": [3],
 		"/Mumei Fan Recreation": [4],
-		"/Oh hi meetups": [5],
-		"/Project Colon D": [6],
-		"/Project Mumei": [7]
+		"/Mumei Fanart Gallery": [5],
+		"/Oh hi meetups": [6],
+		"/Project Colon D": [7],
+		"/Project Mumei": [8]
 	};
 
 export const hooks = {

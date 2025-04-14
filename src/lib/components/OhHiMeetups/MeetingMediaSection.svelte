@@ -67,14 +67,14 @@
 
     .polaroid {
         background-color: white;
-        border-radius: 10px;
+        border-radius: 2px;
         box-shadow: 5px 5px 12px;
         border: 5px solid white;
     }
 
     .polaroidWithText {
         background-color: white;
-        border-radius: 10px;
+        border-radius: 2px;
         box-shadow: 5px 5px 12px;
         border: 5px solid white;
         border-bottom: 50px solid white;
@@ -106,20 +106,20 @@
 
 <div class="md:flex justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-5">
     <div class="md:flex flex-col justify-center items-center gap-10" style="">
-        <video src="img/reyes/reyes0.mp4" loop autoplay
+        <video src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/reyes/Oh_hi_lightsticks.mp4?updatedAt=1744594706505" loop autoplay
             class="polaroid rotate-4 mb-12 md:mb-0 scale-110"></video>
-        <img src="img/reyes/reyes3.webp" alt="Moom plush at sea"
+        <img src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/reyes/Mumei_at_ocean.jpg?updatedAt=1744594738281" alt="Moom plush at ocean"
             class="polaroid modalable scale-100" onclick={displayModal}>:
     </div>
     <div class="rotate-3 modalable mb-12 md:mb-0" style="flex: 0 0 38%;">
-        <img src="img/reyes/reyes2.webp" alt="Moom Shrine Meetup"
+        <img src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/reyes/Mumei_Shrine_Tribute.jpg?updatedAt=1744594704681" alt="Moom Shrine Meetup"
             class="polaroidWithText" onclick={displayModal}>
         <p class="polaroidText -translate-y-10 text-md md:text-2xl">
             Oh hi from SoCal !!
         </p>
     </div>
     <div class="-rotate-6 mb-12 md:mb-0" style="flex: 0 0 30%">
-        <video src="img/reyes/reyes1.mp4" loop autoplay class="polaroid"></video>
+        <video src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/reyes/We_love_Mumei_lightsticks.mp4?updatedAt=1744594709104" loop autoplay class="polaroid"></video>
     </div>
 </div>
 
@@ -144,22 +144,22 @@
 
 <div class="md:flex flex-col justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-20">
     <div class="md:flex justify-center items-center gap-10" style="">
-        <img src="img/berry/HoomanGroupPhoto.webp" alt="Hooman group photo"
+        <img src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/berry/HoomanGroupPhoto%20(silly).png?updatedAt=1744593295787" alt="Hooman group photo"
             class="polaroid modalable md:w-1/2 rotate-3" onclick={displayModal}>:
-        <img src="img/berry/MoomShrine.webp" alt="Moom shrine"
+        <img src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/berry/MoomShrine.jpg?updatedAt=1744593286851" alt="Moom shrine"
             class="polaroid modalable md:w-1/2 -rotate-2 md:-translate-y-10" onclick={displayModal}>:
     </div>
 
     <div class="md:flex justify-center items-center gap-10" style="">
-        <div class="rotate-3 md:-translate-x-40">
-            <video src="img/berry/OhHiMumei.mp4" controls
+        <div class="rotate-3 md:-translate-x-20">
+            <video src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/berry/OhHiMumei.mp4?updatedAt=1744593286891" controls
                 class="polaroidWithText"></video>
             <p class="polaroidText -translate-y-10 text-md md:text-2xl">
                 Oh hi from Singapore !!
             </p>
         </div>
-        <video src="img/berry/MoomMerchShrine.mp4" controls
-            class="polaroid -rotate-2 md:w-1/4"></video>
+        <video src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/berry/MooMerchShrine.mp4?updatedAt=1744594435281" controls
+            class="polaroid -rotate-2 md:w-1/3"></video>
     </div>
 </div>
 

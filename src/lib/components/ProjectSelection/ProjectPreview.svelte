@@ -17,7 +17,7 @@
                 border-radius: 0px 0px 9px 9px; border-color: #674d46; border-style: solid; border-width: 3px; border-top-style: none;">
             {projectTitle}
         </h3>
-        <p class="text-center text-sm block md:hidden max-w-1/2">
+        <p class="text-center text-xs block md:hidden max-w-1/2">
             {projectTitle}
         </p>
     </div>

@@ -143,15 +143,15 @@
 
 
 <div class="md:flex flex-col justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-20">
-    <div class="md:flex justify-center items-center gap-10" style="">
+    <div class="md:flex justify-center items-center gap-10">
         <img src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/berry/HoomanGroupPhoto%20(silly).png?updatedAt=1744593295787" alt="Hooman group photo"
             class="polaroid modalable md:w-1/2 rotate-3" onclick={displayModal}>:
         <img src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/berry/MoomShrine.jpg?updatedAt=1744593286851" alt="Moom shrine"
             class="polaroid modalable md:w-1/2 -rotate-2 md:-translate-y-10" onclick={displayModal}>:
     </div>
 
-    <div class="md:flex justify-center items-center gap-10" style="">
-        <div class="rotate-3 md:-translate-x-20">
+    <div class="md:flex justify-center items-center gap-10">
+        <div class="-rotate-3 md:-translate-x-20">
             <video src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/berry/OhHiMumei.mp4?updatedAt=1744593286891" controls
                 class="polaroidWithText"></video>
             <p class="polaroidText -translate-y-10 text-md md:text-2xl">
@@ -176,6 +176,82 @@
         </div>
     </div>
 </a>
+
+
+
+
+
+
+
+<div class="md:flex flex-col justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-20">
+    <div class="rotate-3 modalable">
+        <img src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/george/GodZmheWYAABRBJ.jpg?updatedAt=1744681460787" alt="Hooman group photo"
+            class="polaroidWithText" onclick={displayModal}>:
+        <p class="polaroidText -translate-y-16 text-md md:text-2xl">
+            Oh hi from Boston !!
+        </p>
+    </div>
+</div>
+
+<a href="https://x.com/LordGeorgeXVI/status/1911596389944996113" target="_blank" class="w-[50%] ">
+    <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
+        transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
+        <span class="text-center underline font-[Indie_Flower] font-semibold">
+            Original by<br>LordGeorgeXVI
+        </span>
+        <div class="flex justify-center items-center">
+            <div class="w-[50%]">
+                <img src="twitter_logo.webp" class="w-20">
+            </div>
+        </div>
+    </div>
+</a>
+
+
+
+
+
+
+
+
+
+
+<div class="md:flex flex-col justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-20">
+    <div class="md:flex justify-center items-center gap-10">
+        <img src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/sandvich/GofRkVdXEAAAb3R.jpg?updatedAt=1744680052455" alt="Hooman group photo"
+            class="polaroid modalable md:w-1/2 rotate-3" onclick={displayModal}>:
+        <img src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/sandvich/GofRX5fWMAEqLh9.jpg?updatedAt=1744680052247" alt="Moom shrine"
+            class="polaroid modalable md:w-1/2 -rotate-2 md:-translate-y-10" onclick={displayModal}>:
+    </div>
+    <div class="modalable -rotate-3">
+        <img src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/sandvich/GofTCPuXMAA3mpK.jpg?updatedAt=1744680050315" alt="Hooman group photo"
+            class="polaroidWithText" onclick={displayModal}>:
+        <p class="polaroidText -translate-y-16 text-md md:text-2xl">
+            Oh hi from London !!
+        </p>
+    </div>
+    <div class="md:flex justify-center items-center gap-10">
+        <img src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/sandvich/GofPmW2XEAArcss.jpg?updatedAt=1744680052336" alt="Hooman group photo"
+            class="polaroid modalable md:w-1/2 rotate-3" onclick={displayModal}>:
+        <img src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/sandvich/GofRX5fWMAEqLh9.jpg?updatedAt=1744680052247" alt="Moom shrine"
+            class="polaroid modalable md:w-1/2 -rotate-2 md:-translate-y-6" onclick={displayModal}>:
+    </div>
+</div>
+
+<a href="https://x.com/Sandysandvich/status/1911728609204613515" target="_blank" class="w-[50%] ">
+    <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
+        transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
+        <span class="text-center underline font-[Indie_Flower] font-semibold">
+            Original by<br>Sandvich
+        </span>
+        <div class="flex justify-center items-center">
+            <div class="w-[50%]">
+                <img src="twitter_logo.webp" class="w-20">
+            </div>
+        </div>
+    </div>
+</a>
+
 
 
 

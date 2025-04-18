@@ -106,7 +106,7 @@
 
 <div class="md:flex justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-5">
     <div class="md:flex flex-col justify-center items-center gap-10" style="">
-        <video src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/reyes/Oh_hi_lightsticks.mp4?updatedAt=1744594706505" loop autoplay
+        <video src="https://ik.imagekit.io/kdctnnikt/HoomanMeetups/reyes/Oh_hi_lightsticks.mp4?updatedAt=1744935982922" loop autoplay
             class="polaroid rotate-4 mb-12 md:mb-0 scale-110"></video>
         <img src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/reyes/Mumei_at_ocean.jpg?updatedAt=1744594738281" alt="Moom plush at ocean"
             class="polaroid modalable scale-100" onclick={displayModal}>:
@@ -119,7 +119,7 @@
         </p>
     </div>
     <div class="-rotate-6 mb-12 md:mb-0" style="flex: 0 0 30%">
-        <video src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/reyes/We_love_Mumei_lightsticks.mp4?updatedAt=1744594709104" loop autoplay class="polaroid"></video>
+        <video src="https://ik.imagekit.io/kdctnnikt/HoomanMeetups/reyes/We_love_Mumei_lightsticks.mp4?updatedAt=1744935985091" loop autoplay class="polaroid"></video>
     </div>
 </div>
 
@@ -129,7 +129,7 @@
     <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 flex justify-center items-center
         transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
         <span class="text-center underline font-[Indie_Flower] font-semibold">
-            Original by<br>@reyes_the_only1
+            Original by<br>@reyes
         </span>
         <div class="flex justify-center items-center">
             <div class="w-[50%]">
@@ -152,13 +152,13 @@
 
     <div class="md:flex justify-center items-center gap-10">
         <div class="-rotate-3 md:-translate-x-20">
-            <video src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/berry/OhHiMumei.mp4?updatedAt=1744593286891" controls
+            <video src="https://ik.imagekit.io/kdctnnikt/HoomanMeetups/berry/OhHiMumei.mp4?updatedAt=1744934853272" controls
                 class="polaroidWithText"></video>
             <p class="polaroidText -translate-y-10 text-md md:text-2xl">
                 Oh hi from Singapore !!
             </p>
         </div>
-        <video src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/berry/MooMerchShrine.mp4?updatedAt=1744594435281" controls
+        <video src="https://ik.imagekit.io/kdctnnikt/HoomanMeetups/berry/MoomMerchShrine2.mp4?updatedAt=1744935586866" controls
             class="polaroid -rotate-2 md:w-1/3"></video>
     </div>
 </div>
@@ -251,6 +251,48 @@
         </div>
     </div>
 </a>
+
+
+
+
+
+
+
+<div class="md:flex flex-col justify-around items-center gap-6 w-full ml-5 md:ml-30 mt-20">
+    <img src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/edgy/dc_mumei_hoomans2.jpg?updatedAt=1744933459080" alt="Hooman group photo"
+        class="polaroid" onclick={displayModal}>:
+    <div class="md:flex justify-center items-center gap-10">
+        <img src="https://ik.imagekit.io/anh3wcfln/HoomanMeetups/edgy/DSC000162.jpg?updatedAt=1744933542732" alt="Hooman group photo"
+            class="polaroid modalable md:w-1/2 rotate-3" onclick={displayModal}>:
+        <div class="modalable -rotate-3">
+            <video src="https://ik.imagekit.io/kdctnnikt/HoomanMeetups/edgy/DCThankYouMumei2.mp4?updatedAt=1744934593706" controls
+                class="polaroidWithText"></video>
+            <p class="polaroidText -translate-y-10 text-md md:text-2xl">
+                Oh hi from DC !!
+            </p>
+        </div>
+    </div>
+</div>
+
+<a href="https://x.com/edgy_tt/status/1912630125385879755" target="_blank" class="w-[50%] ">
+    <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
+        transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
+        <span class="text-center underline font-[Indie_Flower] font-semibold">
+            Original by<br>Edgy
+        </span>
+        <div class="flex justify-center items-center">
+            <div class="w-[50%]">
+                <img src="twitter_logo.webp" class="w-20">
+            </div>
+        </div>
+    </div>
+</a>
+
+
+
+
+
+
 
 
 

@@ -125,7 +125,7 @@
 
 
 
-<a href="https://x.com/reyes_the_only1/status/1909031049272988123" target="_blank" class="w-[50%] ">
+<a href="https://x.com/reyes_the_only1/status/1909031049272988123" target="_blank" class="w-[50%]">
     <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 flex justify-center items-center
         transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
         <span class="text-center underline font-[Indie_Flower] font-semibold">
@@ -163,7 +163,7 @@
     </div>
 </div>
 
-<a href="https://x.com/myrthre/status/1906617604523045126" target="_blank" class="w-[50%] ">
+<a href="https://x.com/myrthre/status/1906617604523045126" target="_blank" class="w-[50%]">
     <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
         transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
         <span class="text-center underline font-[Indie_Flower] font-semibold">
@@ -193,7 +193,7 @@
     </div>
 </div>
 
-<a href="https://x.com/LordGeorgeXVI/status/1911596389944996113" target="_blank" class="w-[50%] ">
+<a href="https://x.com/LordGeorgeXVI/status/1911596389944996113" target="_blank" class="w-[50%]">
     <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
         transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
         <span class="text-center underline font-[Indie_Flower] font-semibold">
@@ -274,7 +274,7 @@
     </div>
 </div>
 
-<a href="https://x.com/edgy_tt/status/1912630125385879755" target="_blank" class="w-[50%] ">
+<a href="https://x.com/edgy_tt/status/1912630125385879755" target="_blank" class="w-[50%]">
     <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
         transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
         <span class="text-center underline font-[Indie_Flower] font-semibold">
@@ -288,6 +288,211 @@
     </div>
 </a>
 
+
+
+
+
+
+                
+
+
+
+<div class="md:flex flex-col justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-20">
+    <div class="md:flex justify-center items-center gap-10">
+        <img src="https://hoomansendoffs.b-cdn.net/rxshanky/NYC%20Oh%20hi%20meet%20bridge%20pic.jpg" alt="Hooman group photo"
+            class="polaroid modalable md:w-1/2 rotate-3" onclick={displayModal}>:
+        <img src="https://hoomansendoffs.b-cdn.net/rxshanky/20250419_130353.jpg" alt="Moom shrine"
+            class="polaroid modalable md:w-1/2 -rotate-2 md:-translate-y-10" onclick={displayModal}>:
+    </div>
+
+    <div class="md:flex justify-center items-center gap-10">
+        <img src="https://hoomansendoffs.b-cdn.net/rxshanky/NYC%20Oh%20hi%20meet.jpg" alt="Moom shrine"
+            class="polaroid modalable md:w-1/2 -rotate-2 md:-translate-x-20" onclick={displayModal}>:
+        <div class="-rotate-3">
+            <video src="https://hoomansendoffs.b-cdn.net/rxshanky/NYC%20Oh%20hi!.mp4" controls
+                class="polaroidWithText"></video>
+            <p class="polaroidText -translate-y-10 text-md md:text-2xl">
+                Oh hi from NYC !!
+            </p>
+        </div>
+    </div>
+</div>
+
+<a href="https://x.com/RxShanky/status/1913869736246468699" target="_blank" class="w-[50%]">
+    <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
+        transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
+        <span class="text-center underline font-[Indie_Flower] font-semibold">
+            Original by<br>RxShanky
+        </span>
+        <div class="flex justify-center items-center">
+            <div class="w-[50%]">
+                <img src="twitter_logo.webp" class="w-20">
+            </div>
+        </div>
+    </div>
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="md:flex flex-col justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-20">
+    <div class="md:flex justify-center items-center gap-10">
+        <div class="-rotate-3 flex flex-col justify-center items-center">
+            <div class="modalable">
+                <img src="https://hoomansendoffs.b-cdn.net/solo/sensei_usagi.jpg" alt="Hooman group photo"
+                    class="polaroidWithText" onclick={displayModal}>:
+                <p class="polaroidText -translate-y-16 text-md md:text-2xl">
+                    Oh hi from Nuremberg !!
+                </p>
+            </div>
+            <a href="https://x.com/Sensei__Usagi/status/1908491586662457451" target="_blank" class="w-[50%] ">
+                <div class="rounded-xl font-bold p-3 h-1/3 flex justify-center items-center
+                    transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
+                    <span class="text-center underline font-[Indie_Flower] font-semibold">
+                        Original by<br>SenseiUsagi
+                    </span>
+                    <div class="flex justify-center items-center">
+                        <div class="w-[50%]">
+                            <img src="twitter_logo.webp" class="w-20">
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="-rotate-3 flex flex-col justify-center items-center">
+            <div class="modalable">
+                <img src="https://hoomansendoffs.b-cdn.net/solo/Ballistic.jpg" alt="Hooman group photo"
+                    class="polaroidWithText" onclick={displayModal}>:
+                <p class="polaroidText -translate-y-16 text-md md:text-2xl">
+                    Oh hi from Sydney !!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="md:flex justify-center items-center gap-10">
+        <div class="-rotate-3 flex flex-col justify-center items-center">
+            <div class="modalable">
+                <img src="https://hoomansendoffs.b-cdn.net/monteasel/DSC_0147.JPG" alt="Hooman group photo"
+                    class="polaroidWithText" onclick={displayModal}>:
+                <p class="polaroidText -translate-y-16 text-md md:text-2xl">
+                    Oh hi from Munich !!
+                </p>
+            </div>
+        </div>
+        <img src="https://hoomansendoffs.b-cdn.net/monteasel/DSC_02003.jpg" alt="Hooman group photo"
+            class="polaroid modalable md:w-1/2 rotate-3" onclick={displayModal}>:
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="md:flex flex-col justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-20">
+    <div class="md:flex justify-center items-center gap-10">
+        <img src="https://hoomansendoffs.b-cdn.net/bay_area/Z62_1624-X4%20-%20Kyle%20Tan.jpg" alt="Hooman group photo"
+            class="polaroid modalable md:w-1/2 rotate-3" onclick={displayModal}>:
+        <div class="-rotate-3">
+            <video src="https://hoomansendoffs.b-cdn.net/bay_area/M19-1605%20-%20VCS.mp4" controls
+                class="polaroidWithText"></video>
+            <p class="polaroidText -translate-y-11 text-md md:text-2xl">
+                Oh hi from San Fransisco !!
+            </p>
+        </div>
+    </div>
+
+    <div class="md:flex justify-center items-center gap-10">
+        <video src="https://hoomansendoffs.b-cdn.net/bay_area/MumeiShionGura%20NorCal%20Beach%20BBQ%20-%20VCS.mp4" controls
+            class="polaroid md:w-1/2 -rotate-1"></video>
+        <img src="https://hoomansendoffs.b-cdn.net/bay_area/TF5A0182%20-%20VCS.jpg" alt="Hooman group photo"
+            class="polaroid modalable md:w-1/2 rotate-1" onclick={displayModal}>:
+    </div>
+    <div class="md:flex justify-center items-center gap-10">
+        <img src="https://hoomansendoffs.b-cdn.net/bay_area/TF5A0100%20-%20VCS.jpg" alt="Hooman group photo"
+            class="polaroid modalable md:w-1/2 rotate-3" onclick={displayModal}>:
+        <img src="https://hoomansendoffs.b-cdn.net/bay_area/Z62_1706-X4%20-%20Kyle%20Tan.jpg" alt="Hooman group photo"
+            class="polaroid modalable md:w-1/2 rotate-3" onclick={displayModal}>:
+    </div>
+</div>
+
+<div class="flex justify-center items-center">
+    <a href="https://x.com/Whathekyle/status/1914212144629104940" target="_blank" class="w-full">
+        <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
+            transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
+            <span class="text-center underline font-[Indie_Flower] font-semibold">
+                Media by<br>Whathekyle
+            </span>
+            <div class="flex justify-center items-center">
+                <div class="w-[50%]">
+                    <img src="twitter_logo.webp" class="w-20">
+                </div>
+            </div>
+        </div>
+    </a>
+    <a href="https://x.com/HolobayEvents/status/1914162904091492549" target="_blank" class="w-full">
+        <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
+            transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
+            <span class="text-center underline font-[Indie_Flower] font-semibold">
+                Media by<br>HolobayEvents
+            </span>
+            <div class="flex justify-center items-center">
+                <div class="w-[50%]">
+                    <img src="twitter_logo.webp" class="w-20">
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="md:flex flex-col justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-20">
+    <div class="rotate-1">
+        <video src="https://hoomansendoffs.b-cdn.net/nightbunny/ssstwitter.com_1745433437014.mp4" controls
+            class="polaroidWithText"></video>
+        <p class="polaroidText -translate-y-10 text-md md:text-2xl">
+            Oh hi from Malaysia !!
+        </p>
+    </div>
+</div>
+
+<a href="https://x.com/NightBunnyKJE26/status/1914669707174809900" target="_blank" class="w-[50%]">
+    <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
+        transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
+        <span class="text-center underline font-[Indie_Flower] font-semibold">
+            Original by<br>NightBunny
+        </span>
+        <div class="flex justify-center items-center">
+            <div class="w-[50%]">
+                <img src="twitter_logo.webp" class="w-20">
+            </div>
+        </div>
+    </div>
+</a>
 
 
 

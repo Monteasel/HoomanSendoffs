@@ -605,7 +605,7 @@
     </div>
 </div>
 
-<a href="https://x.com/edgy_tt/status/1916248330822422817" target="_blank" class="w-[50%]">
+<a href="https://x.com/karuscreative/status/1916244974464532781" target="_blank" class="w-[50%]">
     <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
         transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
         <span class="text-center underline font-[Indie_Flower] font-semibold">

@@ -556,6 +556,40 @@
 
 
 
+<div class="md:flex flex-col justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-20">
+    <div class="md:flex justify-center items-center gap-10">
+        <img src="https://hoomansendoffs.b-cdn.net/VirtualTexas/GpWQEL_WwAApJfx.jpg" alt="Hooman group photo"
+            class="polaroid modalable md:w-1/2 rotate-3" onclick={displayModal}>:
+        <div class="modalable -rotate-3">
+            <img src="https://hoomansendoffs.b-cdn.net/VirtualTexas/GpWQDcVXwAAggJ4.jpg" alt="Hooman group photo"
+                class="polaroidWithText" onclick={displayModal}>:
+            <p class="polaroidText -translate-y-16 text-md md:text-2xl">
+                Oh hi from Texas !!
+            </p>
+        </div>
+    </div>
+</div>
+
+<a href="https://x.com/VirtualTexasVT/status/1915595632489717926" target="_blank" class="w-[50%] ">
+    <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
+        transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
+        <span class="text-center underline font-[Indie_Flower] font-semibold">
+            Original by<br>VirtualTexas
+        </span>
+        <div class="flex justify-center items-center">
+            <div class="w-[50%]">
+                <img src="twitter_logo.webp" class="w-20">
+            </div>
+        </div>
+    </div>
+</a>
+
+
+
+
+
+
+
 
 
 

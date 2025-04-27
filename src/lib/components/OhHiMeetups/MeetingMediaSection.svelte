@@ -392,13 +392,24 @@
         <img src="https://hoomansendoffs.b-cdn.net/monteasel/DSC_02003.jpg" alt="Hooman group photo"
             class="polaroid modalable md:w-1/2 rotate-3" onclick={displayModal}>:
     </div>
-    <div class="-rotate-3 flex flex-col justify-center items-center md:w-1/2">
-        <div class="modalable">
-            <img src="https://hoomansendoffs.b-cdn.net/solo/MumeiBogota%20-%20Camilo%20PR.png" alt="Hooman group photo"
-                class="polaroidWithText" onclick={displayModal}>:
-            <p class="polaroidText -translate-y-16 text-md md:text-2xl">
-                Oh hi from Bogotá !!
-            </p>
+    <div class="md:flex justify-center items-center gap-10">
+        <div class="-rotate-3 flex flex-col justify-center items-center">
+            <div class="modalable">
+                <img src="https://hoomansendoffs.b-cdn.net/solo/MumeiBogota%20-%20Camilo%20PR.png" alt="Hooman group photo"
+                    class="polaroidWithText" onclick={displayModal}>:
+                <p class="polaroidText -translate-y-16 text-md md:text-2xl">
+                    Oh hi from Bogotá !!
+                </p>
+            </div>
+        </div>
+        <div class="-rotate-3 flex flex-col justify-center items-center">
+            <div class="modalable">
+                <img src="https://hoomansendoffs.b-cdn.net/solo/photonic.jpg" alt="Hooman group photo"
+                    class="polaroidWithText" onclick={displayModal}>:
+                <p class="polaroidText -translate-y-16 text-md md:text-2xl">
+                    Oh hi from Sydney !!
+                </p>
+            </div>
         </div>
     </div>
 </div>
@@ -758,6 +769,55 @@
         </div>
     </div>
 </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="md:flex flex-col justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-20">
+    <div class="md:flex justify-center items-center gap-10">
+        <img src="https://hoomansendoffs.b-cdn.net/berry2/GpgYq-Pb0AAtHIf.jpg" alt="Hooman group photo"
+            class="polaroid modalable md:w-1/2 rotate-3" onclick={displayModal}>:
+        <div class="modalable -rotate-3">
+            <img src="https://hoomansendoffs.b-cdn.net/berry2/GpgYpgbbEAQks8n.jpg" alt="Hooman group photo"
+                class="polaroidWithText" onclick={displayModal}>:
+            <p class="polaroidText -translate-y-16 text-md md:text-2xl">
+                Oh hi from Singapore !!
+            </p>
+        </div>
+    </div>
+
+    <div class="md:flex justify-center items-center gap-10">
+        <img src="https://hoomansendoffs.b-cdn.net/berry2/GpgYqKZaYAAQ-Nv.jpg" alt="Moom shrine"
+            class="polaroid modalable md:w-1/2 -rotate-2" onclick={displayModal}>:
+        <video src="https://hoomansendoffs.b-cdn.net/berry2/sg2_meet.mp4" controls
+            class="polaroid md:w-1/2 -rotate-1"></video>
+    </div>
+</div>
+
+<a href="https://x.com/myrthre/status/1916308867463712966" target="_blank" class="w-[50%]">
+    <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
+        transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
+        <span class="text-center underline font-[Indie_Flower] font-semibold">
+            Original by<br>berry
+        </span>
+        <div class="flex justify-center items-center">
+            <div class="w-[50%]">
+                <img src="twitter_logo.webp" class="w-20">
+            </div>
+        </div>
+    </div>
+</a>
+
+
 
 
 

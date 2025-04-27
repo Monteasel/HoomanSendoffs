@@ -129,7 +129,7 @@
     <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 flex justify-center items-center
         transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
         <span class="text-center underline font-[Indie_Flower] font-semibold">
-            Original by<br>@reyes
+            Original by<br>reyes
         </span>
         <div class="flex justify-center items-center">
             <div class="w-[50%]">
@@ -278,7 +278,7 @@
     <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
         transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
         <span class="text-center underline font-[Indie_Flower] font-semibold">
-            Original by<br>Edgy
+            Original by<br>edgy
         </span>
         <div class="flex justify-center items-center">
             <div class="w-[50%]">
@@ -610,6 +610,146 @@
         transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
         <span class="text-center underline font-[Indie_Flower] font-semibold">
             Original by<br>Juniper
+        </span>
+        <div class="flex justify-center items-center">
+            <div class="w-[50%]">
+                <img src="twitter_logo.webp" class="w-20">
+            </div>
+        </div>
+    </div>
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="md:flex flex-col justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-20">
+    <div class="modalable -rotate-3">
+        <img src="https://hoomansendoffs.b-cdn.net/project_colonD/GphIFFLbEAArF-H.jpg" alt="Hooman group photo"
+            class="polaroidWithText" onclick={displayModal}>:
+        <p class="polaroidText -translate-y-16 text-md md:text-2xl">
+            Oh hi from Malaysia !!
+        </p>
+    </div>
+    <div class="md:flex justify-center items-center gap-10">
+        <img src="https://hoomansendoffs.b-cdn.net/project_colonD/GphIFE1bEAQfGii.jpg" alt="Hooman group photo"
+            class="polaroid modalable md:w-1/2 rotate-3" onclick={displayModal}>:
+        <img src="https://hoomansendoffs.b-cdn.net/project_colonD/GphIFLVbEAM_uP7.jpg" alt="Moom shrine"
+            class="polaroid modalable md:w-1/2 -rotate-2 md:-translate-y-10" onclick={displayModal}>:
+    </div>
+</div>
+
+<a href="https://x.com/Fan_Project_MY/status/1916360912421982719" target="_blank" class="w-[50%] ">
+    <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
+        transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
+        <span class="text-center underline font-[Indie_Flower] font-semibold">
+            Original by<br>Project :D
+        </span>
+        <div class="flex justify-center items-center">
+            <div class="w-[50%]">
+                <img src="twitter_logo.webp" class="w-20">
+            </div>
+        </div>
+    </div>
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="md:flex flex-col justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-20">
+    <div class="md:flex justify-center items-center gap-10">
+        <img src="https://hoomansendoffs.b-cdn.net/NguynTh10067406/Gpib8kgaAAAb_e4.jpg" alt="Hooman group photo"
+            class="polaroid modalable md:w-1/2 rotate-3" onclick={displayModal}>:
+        <div class="modalable -rotate-3">
+            <img src="https://hoomansendoffs.b-cdn.net/NguynTh10067406/Gpib8kfaEAEOMBr.jpg" alt="Hooman group photo"
+                class="polaroidWithText" onclick={displayModal}>:
+            <p class="polaroidText -translate-y-16 text-md md:text-2xl">
+                Oh hi from Vietnam !!
+            </p>
+        </div>
+    </div>
+
+    <div class="md:flex justify-center items-center gap-10">
+        <img src="https://hoomansendoffs.b-cdn.net/NguynTh10067406/Gpib8kfbgAACTtT.jpg" alt="Moom shrine"
+            class="polaroid modalable md:w-1/2 -rotate-2" onclick={displayModal}>:
+        <img src="https://hoomansendoffs.b-cdn.net/NguynTh10067406/GpicGzta4AAStjS.jpg" alt="Moom shrine"
+            class="polaroid modalable md:w-1/2 -rotate-2" onclick={displayModal}>:
+    </div>
+</div>
+
+<a href="https://x.com/NguynTh10067406/status/1916453404672479335" target="_blank" class="w-[50%]">
+    <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
+        transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
+        <span class="text-center underline font-[Indie_Flower] font-semibold">
+            Original by<br>LappPy
+        </span>
+        <div class="flex justify-center items-center">
+            <div class="w-[50%]">
+                <img src="twitter_logo.webp" class="w-20">
+            </div>
+        </div>
+    </div>
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="md:flex flex-col justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-20">
+    <div class="md:flex justify-center items-center gap-10">
+        <img src="https://hoomansendoffs.b-cdn.net/alfamale916/GpgiuSEa0AAGdQN.jpg" alt="Hooman group photo"
+            class="polaroid modalable md:w-1/2 rotate-3" onclick={displayModal}>:
+        <img src="https://hoomansendoffs.b-cdn.net/alfamale916/GpgiUIBbEAEOZdJ.jpg" alt="Moom shrine"
+            class="polaroid modalable md:w-1/2 -rotate-2 md:-translate-y-10" onclick={displayModal}>:
+    </div>
+    <div class="-rotate-1">
+        <video src="https://hoomansendoffs.b-cdn.net/alfamale916/vid1916330421052444908.mp4" controls
+            class="polaroidWithText"></video>
+        <p class="polaroidText -translate-y-10 text-md md:text-2xl">
+            Oh hi from Australia !!
+        </p>
+    </div>
+    <div class="md:flex justify-center items-center gap-10">
+        <img src="https://hoomansendoffs.b-cdn.net/alfamale916/Gpghd-6bUAABDpK.jpg" alt="Hooman group photo"
+            class="polaroid modalable md:w-1/2 rotate-3" onclick={displayModal}>:
+        <img src="https://hoomansendoffs.b-cdn.net/alfamale916/GpgdzqjbEAAMeK9.jpg" alt="Moom shrine"
+            class="polaroid modalable md:w-1/2 -rotate-2 md:-translate-y-6" onclick={displayModal}>:
+    </div>
+</div>
+
+<a href="https://x.com/alfamale916/status/1916319394315309345" target="_blank" class="w-[50%] ">
+    <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
+        transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
+        <span class="text-center underline font-[Indie_Flower] font-semibold">
+            Original by<br>bbc.ismyname
         </span>
         <div class="flex justify-center items-center">
             <div class="w-[50%]">

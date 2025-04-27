@@ -402,12 +402,12 @@
                 </p>
             </div>
         </div>
-        <div class="-rotate-3 flex flex-col justify-center items-center">
+        <div class="rotate-1 flex flex-col justify-center items-center">
             <div class="modalable">
                 <img src="https://hoomansendoffs.b-cdn.net/solo/photonic.jpg" alt="Hooman group photo"
                     class="polaroidWithText" onclick={displayModal}>:
                 <p class="polaroidText -translate-y-16 text-md md:text-2xl">
-                    Oh hi from Sydney !!
+                    Oh hi from California !!
                 </p>
             </div>
         </div>

@@ -412,6 +412,37 @@
             </div>
         </div>
     </div>
+    <div class="md:flex justify-center items-center gap-10">
+        <div class="rotate-2 flex flex-col justify-center items-center">
+            <div class="modalable">
+                <img src="https://hoomansendoffs.b-cdn.net/solo/alexawolf.jpg" alt="Hooman group photo"
+                    class="polaroidWithText" onclick={displayModal}>:
+                <p class="polaroidText -translate-y-16 text-md md:text-2xl">
+                    Oh hi from Romania !!
+                </p>
+            </div>
+        </div>
+        <div class="-rotate-2 flex flex-col justify-center items-center">
+            <div class="modalable">
+                <img src="https://hoomansendoffs.b-cdn.net/solo/IMG_5692.jpg" alt="Hooman group photo"
+                    class="polaroidWithText" onclick={displayModal}>:
+                <p class="polaroidText -translate-y-16 text-md md:text-2xl">
+                    Oh hi from Poland !!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="md:flex justify-center items-center gap-10">
+        <div class="-rotate-3 flex flex-col justify-center items-center">
+            <div class="modalable">
+                <img src="https://hoomansendoffs.b-cdn.net/solo/hoomin.jpg" alt="Hooman group photo"
+                    class="polaroidWithText" onclick={displayModal}>:
+                <p class="polaroidText -translate-y-16 text-md md:text-2xl">
+                    Oh hi from Japan !!
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
 
 

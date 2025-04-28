@@ -8,7 +8,5 @@
 
 <div class="min-h-screen w-[85.5%] mr-[2%] mb-20">
     <Header/>
-    <InfoAndFormsButtons/>
-    <PlannedMeetups/>
     <MeetingMediaSection/>
 </div>

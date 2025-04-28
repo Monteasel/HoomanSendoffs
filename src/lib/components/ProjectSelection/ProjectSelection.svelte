@@ -40,16 +40,6 @@
                 <ProjectPreview projectThumbnail="img/thumb_mumei_fan_recreation.webp" projectTitle="Mumei Fan Recreation" projectRoute="Mumei Fan Recreation"/>
                 <ProjectPreview projectThumbnail="img/thumb_fanart_gallery_tribute.webp" projectTitle="Nanashi Mumei Fanart Gallery" projectRoute="Mumei Fanart Gallery"/>
             </div>
-            <div class="flex flex-col justify-center items-center mt-2 md:mt-20 mx-2 md:mx-20 text-center">
-                <p class="rounded-xl p-4 mb-2" style="background-color: #af9586; border: 3px solid #674d46;">
-                    Need help with or want to share your project to show Mumei your support?
-                </p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVuGZoUm39-cGK5y3WhhsN9xyB8HOoFhLvM8XTDTTHUbv7wQ/viewform?usp=sharing" target="_blank">
-                    <p class="shareProjButton rounded-xl p-5 shadow-2xl underline italic transition-all duration-200 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-105">
-                        Share your project for the site
-                    </p>
-                </a>
-            </div>
         </div>
     </div>
 </div>

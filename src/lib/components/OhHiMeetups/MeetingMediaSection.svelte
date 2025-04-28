@@ -1,4 +1,6 @@
 <script lang="ts">
+    import {YouTube} from "sveltekit-embed";
+
     let showModal = $state(false);
     let modalImgSource = $state("");
 
@@ -98,8 +100,47 @@
     }
 </style>
 
+
+<div class="md:flex flex-col justify-around items-center gap-12 w-full ml-5 md:ml-30 mt-20">
+    <div class="md:flex justify-center items-center gap-10">
+        <img src="https://hoomansendoffs.b-cdn.net/meetup_collage/mumei_collage_1.png" alt="Meetup collage"
+            class="modalable md:w-1/2 rotate-2" onclick={displayModal}>:
+        <img src="https://hoomansendoffs.b-cdn.net/meetup_collage/mumei_collage_2.png" alt="Meetup collage"
+            class="modalable md:w-1/2 -rotate-3" onclick={displayModal}>:
+    </div>
+
+    <div class="md:flex justify-center items-center gap-10">
+        <img src="https://hoomansendoffs.b-cdn.net/meetup_collage/mumei_collage_3.png" alt="Meetup collage"
+            class="modalable md:w-1/2 -rotate-2" onclick={displayModal}>:
+        <img src="https://hoomansendoffs.b-cdn.net/meetup_collage/mumei_collage_4.png" alt="Meetup collage"
+            class="modalable md:w-1/2 rotate-3" onclick={displayModal}>:
+    </div>
+</div>
+
+<a href="https://x.com/edgy_tt/status/1916574521907101927" target="_blank" class="w-[50%]">
+    <div class="ml-[30%] rounded-xl font-bold p-3 h-1/3 mt-10 flex justify-center items-center
+        transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 paper1" style="">
+        <span class="text-center underline font-[Indie_Flower] font-semibold">
+            Original by<br>edgy
+        </span>
+        <div class="flex justify-center items-center">
+            <div class="w-[50%]">
+                <img src="twitter_logo.webp" class="w-20">
+            </div>
+        </div>
+    </div>
+</a>
+
+
+
+<div class="w-[110%] px-2 md:w-[100%] md:pl-[30%] my-10">
+    <YouTube youTubeId="Nd-a2_Knuuw"/>
+</div>
+
+
+
 <div class="rotate-2">
-    <p class="mt-40 ml-10 md:ml-40 md:mx-40 p-10 text-center font-semibold font-[Indie_Flower] text-2xl md:text-3xl paper0">
+    <p class="mt-40 ml-10 md:ml-90 md:mx-40 p-10 text-center font-semibold font-[Indie_Flower] text-2xl md:text-3xl paper0">
         Moments from the Hooman's meetups
     </p>
 </div>
